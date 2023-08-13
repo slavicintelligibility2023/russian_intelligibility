@@ -1,0 +1,2262 @@
+,id_user,test_id,parallel_lang,age,speciality,known_langs,ans_cnt
+1,15574352,1,No Parallel Text,bak,no,"[pol, czk, srb, ukr, bel]",36
+2,16426041,1,No Parallel Text,fin,no,[ukr],43
+3,29111408,1,No Parallel Text,bak,no,[],35
+4,82442459,1,No Parallel Text,bak,no,"[pol, czk, srb, ukr, bel]",42
+5,89074025,1,No Parallel Text,mag,no,[],34
+6,92555730,1,No Parallel Text,bak,no,[],30
+7,102754731,1,No Parallel Text,bak,no,[],34
+8,114528272,1,No Parallel Text,mag,no,"[pol, czk, srb, ukr, bel]",36
+9,117707224,1,No Parallel Text,bak,no,"[pol, czk, srb, ukr, bel]",27
+10,143171791,1,No Parallel Text,bak,no,"[pol, czk, srb, ukr, bel]",33
+11,189436041,1,No Parallel Text,bak,no,[ukr],38
+12,201058554,1,No Parallel Text,bak,no,[],38
+13,203726041,1,No Parallel Text,fin,unk,[],43
+14,227586041,1,No Parallel Text,fin,no,[oth],30
+15,247085703,1,No Parallel Text,unk,no,[ukr],43
+16,249366041,1,No Parallel Text,bak,no,[oth],42
+17,257600935,1,No Parallel Text,bak,yes,[ukr],43
+18,285216041,1,No Parallel Text,bak,no,[oth],43
+19,321505730,1,No Parallel Text,fin,no,[oth],40
+20,351343315,1,No Parallel Text,bak,no,[],43
+21,367851747,1,No Parallel Text,bak,no,[bel],23
+22,376921318,1,No Parallel Text,bak,no,[],42
+23,377032357,1,No Parallel Text,bak,no,"[pol, czk, srb, ukr, bel]",30
+24,409495970,1,No Parallel Text,fin,no,[],27
+25,412455730,1,No Parallel Text,asp,no,[],43
+26,462736041,1,No Parallel Text,fin,no,[],40
+27,486296041,1,No Parallel Text,fin,no,[oth],43
+28,498671030,1,No Parallel Text,fin,no,"[pol, czk, srb, ukr, bel]",43
+29,513645271,1,No Parallel Text,bak,no,[],37
+30,522743791,1,No Parallel Text,sch,no,"[pol, czk, srb, ukr, bel]",36
+31,532683290,1,No Parallel Text,bak,no,"[pol, czk, srb, ukr, bel]",43
+32,536596041,1,No Parallel Text,fin,no,[],43
+33,546402188,1,No Parallel Text,bak,yes,"[pol, czk, srb, ukr, bel]",33
+34,551233326,1,No Parallel Text,bak,yes,"[pol, czk, srb, ukr, bel]",24
+35,569836041,1,No Parallel Text,sch,no,[ukr],43
+36,666726041,1,No Parallel Text,sch,no,[oth],43
+37,676802573,1,No Parallel Text,bak,yes,[oth],41
+38,705886041,1,No Parallel Text,fin,no,[ukr],42
+39,767095703,1,No Parallel Text,unk,unk,[],42
+40,837986041,1,No Parallel Text,fin,no,[ukr],40
+41,881766041,1,No Parallel Text,fin,no,[oth],29
+42,909705801,1,No Parallel Text,bak,no,[],41
+43,934336041,1,No Parallel Text,mag,yes,[oth],42
+44,985926041,1,No Parallel Text,bak,no,[],39
+45,2956720,1,Polish,fin,no,[],43
+46,43538469,1,Polish,bak,no,[],10
+47,71776618,1,Polish,bak,no,[],31
+48,82824571,1,Polish,bak,no,[],40
+49,85836041,1,Polish,sch,no,"[ukr, oth]",36
+50,117596041,1,Polish,bak,yes,[oth],43
+51,120105730,1,Polish,fin,no,[],43
+52,230673385,1,Polish,bak,no,[oth],38
+53,255183309,1,Polish,fin,no,[ukr],43
+54,292255703,1,Polish,fin,no,[oth],38
+55,350490518,1,Polish,fin,yes,[],41
+56,353235703,1,Polish,bak,no,"[ukr, bel]",37
+57,356538717,1,Polish,bak,no,[],41
+58,372785730,1,Polish,fin,yes,[],43
+59,437031942,1,Polish,bak,no,[],18
+60,513260229,1,Polish,bak,yes,[],43
+61,522401585,1,Polish,bak,no,[oth],36
+62,525775426,1,Polish,bak,no,[],13
+63,546066041,1,Polish,bak,no,[],43
+64,579076558,1,Polish,unk,unk,[],41
+65,590586041,1,Polish,bak,no,[],37
+66,603926431,1,Polish,bak,no,[],26
+67,646351803,1,Polish,bak,no,[],24
+68,678100724,1,Polish,bak,no,[],12
+69,690863616,1,Polish,bak,no,[],43
+70,704305703,1,Polish,fin,no,[oth],42
+71,713903091,1,Polish,bak,no,[],13
+72,736384210,1,Polish,bak,no,[],12
+73,768114531,1,Polish,unk,unk,[],42
+74,791095730,1,Polish,bak,no,[oth],43
+75,811850316,1,Polish,fin,yes,[],29
+76,812685730,1,Polish,fin,no,[ukr],43
+77,836235867,1,Polish,bak,yes,[],43
+78,894025703,1,Polish,fin,no,[],43
+79,931936237,1,Polish,bak,no,[oth],34
+80,954186041,1,Polish,fin,no,[oth],41
+81,39706041,1,Serbian,bak,no,[],43
+82,78416041,1,Serbian,fin,no,[],42
+83,86906041,1,Serbian,bak,no,"[ukr, oth]",43
+84,142202308,1,Serbian,mag,yes,[],30
+85,155145344,1,Serbian,bak,no,[ukr],37
+86,162664594,1,Serbian,sch,yes,[],38
+87,177635730,1,Serbian,bak,no,[oth],43
+88,195615312,1,Serbian,bak,yes,[],32
+89,287007087,1,Serbian,bak,no,[],41
+90,294546041,1,Serbian,sch,no,[],43
+91,308605703,1,Serbian,fin,no,[oth],43
+92,330145776,1,Serbian,bak,no,[],39
+93,369490339,1,Serbian,bak,no,[],43
+94,431577451,1,Serbian,sch,no,[ukr],42
+95,453696041,1,Serbian,sch,no,[],37
+96,469886872,1,Serbian,fin,yes,[],36
+97,475370649,1,Serbian,unk,unk,[],38
+98,505457089,1,Serbian,fin,no,[],32
+99,521064963,1,Serbian,bak,no,[],40
+100,525869219,1,Serbian,fin,no,[],35
+101,534430232,1,Serbian,mag,no,[],40
+102,586155730,1,Serbian,mag,yes,"[pol, ukr, bel]",38
+103,611385703,1,Serbian,bak,no,[oth],43
+104,636070053,1,Serbian,bak,no,[ukr],20
+105,693723322,1,Serbian,fin,no,[ukr],39
+106,706255730,1,Serbian,mag,no,"[ukr, bel]",34
+107,738195442,1,Serbian,bak,no,[oth],29
+108,769545730,1,Serbian,bak,no,[],43
+109,773426714,1,Serbian,bak,no,[],15
+110,800041090,1,Serbian,mag,yes,[czk],43
+111,812066041,1,Serbian,fin,no,[],42
+112,816970628,1,Serbian,bak,no,"[pol, bel, oth]",9
+113,847765730,1,Serbian,sch,no,[ukr],43
+114,898401425,1,Serbian,sch,no,[],32
+115,930355756,1,Serbian,fin,no,[],40
+116,947076041,1,Serbian,unk,unk,[],41
+117,950422373,1,Serbian,bak,no,[],27
+118,998856120,1,Serbian,mag,no,[],38
+119,19606041,1,Czech,fin,yes,[],37
+120,25554931,1,Czech,fin,no,[],25
+121,49429691,1,Czech,bak,no,[],35
+122,78301410,1,Czech,bak,no,[ukr],43
+123,79332727,1,Czech,bak,no,[],17
+124,98795730,1,Czech,fin,no,"[ukr, oth]",32
+125,100805730,1,Czech,bak,yes,[oth],41
+126,146123088,1,Czech,sch,yes,[],37
+127,199745730,1,Czech,mag,no,[],14
+128,222141280,1,Czech,bak,no,[oth],10
+129,296975730,1,Czech,fin,no,[oth],43
+130,304462554,1,Czech,fin,yes,"[pol, bel, oth]",41
+131,333686041,1,Czech,bak,no,[],41
+132,341965730,1,Czech,bak,no,[],42
+133,370743309,1,Czech,fin,no,[],43
+134,400235730,1,Czech,fin,no,[oth],42
+135,409706041,1,Czech,fin,no,[ukr],43
+136,434207127,1,Czech,bak,no,[],43
+137,489525703,1,Czech,bak,no,[oth],12
+138,493251169,1,Czech,mag,yes,[],25
+139,586932490,1,Czech,bak,no,[],25
+140,601905510,1,Czech,fin,no,[bel],37
+141,614076041,1,Czech,fin,yes,[ukr],43
+142,645671796,1,Czech,bak,yes,[],25
+143,661586041,1,Czech,sch,no,[oth],43
+144,734354836,1,Czech,fin,yes,[],37
+145,747936118,1,Czech,bak,no,[],39
+146,757558902,1,Czech,bak,no,[],40
+147,762133485,1,Czech,bak,no,[],43
+148,794805653,1,Czech,bak,no,[],39
+149,838586041,1,Czech,fin,no,[ukr],36
+150,842217126,1,Czech,bak,no,[],15
+151,874050611,1,Czech,bak,no,[],32
+152,898638543,1,Czech,bak,no,[],38
+153,918950085,1,Czech,bak,no,[],11
+154,931836041,1,Czech,sch,no,[oth],18
+155,947432603,1,Czech,bak,no,[oth],43
+156,13285703,1,Ukranian,sch,yes,[oth],39
+157,27596041,1,Ukranian,fin,no,[oth],22
+158,61595214,1,Ukranian,bak,no,[],35
+159,116208399,1,Ukranian,fin,no,[],43
+160,131136041,1,Ukranian,fin,yes,[],43
+161,144697766,1,Ukranian,bak,no,[],30
+162,145354836,1,Ukranian,bak,no,[],30
+163,145426041,1,Ukranian,fin,no,[oth],43
+164,158980909,1,Ukranian,sch,no,[],42
+165,217695014,1,Ukranian,mag,no,[],42
+166,251901865,1,Ukranian,mag,no,[],41
+167,286299228,1,Ukranian,bak,yes,[czk],43
+168,321225730,1,Ukranian,unk,unk,[],43
+169,374126117,1,Ukranian,sch,no,[oth],30
+170,377722608,1,Ukranian,mag,no,[],37
+171,443277565,1,Ukranian,unk,unk,[],43
+172,447145730,1,Ukranian,mag,no,[],43
+173,475059565,1,Ukranian,bak,no,[oth],42
+174,478666041,1,Ukranian,unk,unk,[],41
+175,478816041,1,Ukranian,bak,yes,[oth],35
+176,480366041,1,Ukranian,mag,no,[oth],43
+177,496257966,1,Ukranian,fin,yes,[czk],42
+178,497787688,1,Ukranian,bak,no,[oth],42
+179,526470348,1,Ukranian,bak,no,[],33
+180,556931304,1,Ukranian,sch,no,[],31
+181,598936041,1,Ukranian,bak,no,[oth],43
+182,622278418,1,Ukranian,mag,no,[],41
+183,635893125,1,Ukranian,bak,no,[],37
+184,661386089,1,Ukranian,bak,no,[],39
+185,669250479,1,Ukranian,fin,no,[],18
+186,682545703,1,Ukranian,unk,unk,[],21
+187,709575703,1,Ukranian,bak,no,[],43
+188,740895730,1,Ukranian,bak,no,[],43
+189,842286041,1,Ukranian,mag,no,[],43
+190,868305730,1,Ukranian,fin,no,[],43
+191,874226403,1,Ukranian,unk,unk,[],42
+192,940160014,1,Ukranian,sch,no,[],39
+193,991055730,1,Ukranian,fin,yes,[],42
+194,12029443,1,Belarussian,mag,no,[],31
+195,46215703,1,Belarussian,mag,no,[],41
+196,162826041,1,Belarussian,mag,no,[oth],38
+197,171713409,1,Belarussian,fin,no,[],42
+198,186776041,1,Belarussian,sch,no,[oth],12
+199,230768033,1,Belarussian,sch,unk,[],37
+200,246158653,1,Belarussian,sch,no,[ukr],42
+201,247774490,1,Belarussian,bak,no,[oth],42
+202,249733486,1,Belarussian,fin,no,[],42
+203,263510232,1,Belarussian,bak,yes,[],42
+204,266845703,1,Belarussian,bak,no,[],43
+205,281751384,1,Belarussian,mag,yes,[],38
+206,300313485,1,Belarussian,bak,no,[],43
+207,382075730,1,Belarussian,fin,no,[],40
+208,404313409,1,Belarussian,bak,no,[oth],43
+209,428441815,1,Belarussian,bak,no,[],39
+210,464721956,1,Belarussian,mag,yes,[oth],32
+211,475436354,1,Belarussian,bak,yes,[],41
+212,477884543,1,Belarussian,bak,yes,[ukr],40
+213,482740481,1,Belarussian,sch,no,[],37
+214,510563673,1,Belarussian,bak,unk,[],40
+215,518156041,1,Belarussian,bak,yes,[],43
+216,562387346,1,Belarussian,unk,unk,[],40
+217,565894069,1,Belarussian,sch,no,[],15
+218,602050685,1,Belarussian,bak,no,[oth],42
+219,624630617,1,Belarussian,bak,no,[ukr],42
+220,645072903,1,Belarussian,bak,yes,[oth],39
+221,668126041,1,Belarussian,sch,no,[ukr],42
+222,746606041,1,Belarussian,fin,no,[],22
+223,891846020,1,Belarussian,bak,no,[],42
+224,920145703,1,Belarussian,bak,yes,[oth],38
+225,942126041,1,Belarussian,fin,no,[],41
+226,950685730,1,Belarussian,sch,no,[oth],43
+227,958788072,1,Belarussian,bak,no,[],33
+228,964195730,1,Belarussian,asp,yes,[],43
+229,970214449,1,Belarussian,bak,no,[],25
+230,970585730,1,Belarussian,fin,no,[oth],41
+231,972767016,1,Belarussian,sch,no,[oth],39
+232,105426041,1,Slovak,mag,no,"[ukr, oth]",41
+233,115686041,1,Slovak,mag,no,[oth],33
+234,131736041,1,Slovak,fin,yes,[oth],38
+235,150025730,1,Slovak,bak,no,[oth],43
+236,176015730,1,Slovak,fin,no,[oth],43
+237,178026041,1,Slovak,fin,no,[],38
+238,183469099,1,Slovak,bak,yes,[oth],32
+239,188418340,1,Slovak,bak,no,"[ukr, bel, oth]",38
+240,197795730,1,Slovak,fin,no,[],42
+241,201935362,1,Slovak,bak,no,[ukr],16
+242,230334700,1,Slovak,bak,no,[oth],38
+243,231272081,1,Slovak,bak,no,[],33
+244,241426041,1,Slovak,fin,no,[],39
+245,244956041,1,Slovak,fin,no,[oth],43
+246,247096561,1,Slovak,bak,yes,[ukr],29
+247,247430646,1,Slovak,bak,yes,[oth],43
+248,278396041,1,Slovak,fin,no,[ukr],42
+249,293310144,1,Slovak,bak,no,[],42
+250,302050130,1,Slovak,sch,yes,[ukr],35
+251,312696041,1,Slovak,mag,no,[],19
+252,332756041,1,Slovak,mag,no,[],41
+253,362266041,1,Slovak,fin,no,[oth],10
+254,369666041,1,Slovak,mag,no,[oth],33
+255,381126041,1,Slovak,asp,no,[oth],32
+256,406161967,1,Slovak,bak,no,[oth],43
+257,412731697,1,Slovak,sch,no,[],40
+258,416046041,1,Slovak,bak,no,[],40
+259,436286041,1,Slovak,fin,no,[oth],42
+260,445459971,1,Slovak,bak,no,"[pol, ukr, bel]",37
+261,447186041,1,Slovak,fin,yes,[],43
+262,467126041,1,Slovak,bak,no,[oth],43
+263,487394911,1,Slovak,mag,no,[],36
+264,492588190,1,Slovak,bak,no,"[ukr, bel]",7
+265,503096041,1,Slovak,unk,unk,[],30
+266,504018040,1,Slovak,fin,no,[],31
+267,527386041,1,Slovak,mag,no,[],33
+268,529596041,1,Slovak,unk,unk,[],43
+269,535056041,1,Slovak,bak,no,[],32
+270,579075703,1,Slovak,asp,no,[],32
+271,596056041,1,Slovak,fin,no,[ukr],34
+272,607555730,1,Slovak,bak,no,"[ukr, oth]",43
+273,613479309,1,Slovak,bak,no,[oth],35
+274,641196041,1,Slovak,bak,no,[],32
+275,656806041,1,Slovak,unk,unk,[],23
+276,670936041,1,Slovak,mag,no,[oth],43
+277,677345490,1,Slovak,mag,yes,[],14
+278,679976041,1,Slovak,bak,no,[ukr],43
+279,685906041,1,Slovak,bak,no,[pol],43
+280,694806041,1,Slovak,mag,no,[oth],42
+281,724796041,1,Slovak,bak,no,[],43
+282,725637709,1,Slovak,mag,no,"[ukr, oth]",26
+283,728356041,1,Slovak,bak,yes,[],18
+284,741687496,1,Slovak,fin,no,[],39
+285,767936041,1,Slovak,fin,no,[ukr],41
+286,783283505,1,Slovak,bak,no,[],43
+287,819367487,1,Slovak,bak,no,[],43
+288,828466041,1,Slovak,fin,no,[oth],42
+289,846536041,1,Slovak,fin,no,[],43
+290,864736041,1,Slovak,fin,yes,[oth],20
+291,865650398,1,Slovak,bak,no,[ukr],43
+292,868226041,1,Slovak,bak,no,[oth],37
+293,870946041,1,Slovak,mag,yes,[],32
+294,900766041,1,Slovak,bak,no,[ukr],30
+295,902265633,1,Slovak,mag,no,[],14
+296,933066041,1,Slovak,fin,no,[oth],41
+297,935336041,1,Slovak,bak,unk,[ukr],40
+298,949575730,1,Slovak,fin,no,[oth],43
+299,989016041,1,Slovak,sch,no,[ukr],40
+300,992706041,1,Slovak,unk,unk,[],33
+301,12989556,1,Bulgarian,bak,yes,[ukr],35
+302,17245703,1,Bulgarian,fin,yes,[],42
+303,48729611,1,Bulgarian,bak,no,[ukr],40
+304,64786041,1,Bulgarian,bak,no,[oth],42
+305,65605025,1,Bulgarian,mag,yes,[],39
+306,78499698,1,Bulgarian,fin,no,[],43
+307,102569456,1,Bulgarian,bak,no,[ukr],34
+308,124012204,1,Bulgarian,bak,no,[],32
+309,139215730,1,Bulgarian,unk,no,[ukr],38
+310,149071966,1,Bulgarian,fin,no,[ukr],40
+311,173753309,1,Bulgarian,fin,no,[],43
+312,275486041,1,Bulgarian,sch,yes,[],8
+313,277952527,1,Bulgarian,fin,unk,[],43
+314,316015703,1,Bulgarian,fin,no,[oth],43
+315,343214246,1,Bulgarian,fin,no,[],41
+316,392033499,1,Bulgarian,bak,yes,[],38
+317,426876041,1,Bulgarian,fin,no,"[ukr, bel]",21
+318,432192757,1,Bulgarian,bak,no,"[czk, srb, ukr, bel]",42
+319,520046327,1,Bulgarian,fin,no,[],38
+320,525806786,1,Bulgarian,fin,no,[],42
+321,544706041,1,Bulgarian,bak,yes,[],42
+322,563300249,1,Bulgarian,bak,no,[],13
+323,571943582,1,Bulgarian,fin,no,[czk],43
+324,582057451,1,Bulgarian,fin,no,[],31
+325,606226041,1,Bulgarian,sch,no,[oth],43
+326,682735730,1,Bulgarian,sch,no,[oth],34
+327,690677364,1,Bulgarian,bak,no,[],23
+328,698465273,1,Bulgarian,unk,unk,[],39
+329,703653305,1,Bulgarian,bak,yes,[],28
+330,753585730,1,Bulgarian,bak,no,[oth],41
+331,757205730,1,Bulgarian,sch,no,[oth],43
+332,785887413,1,Bulgarian,mag,yes,"[pol, ukr]",39
+333,834983411,1,Bulgarian,fin,no,[czk],31
+334,865281525,1,Bulgarian,fin,no,[ukr],32
+335,976585703,1,Bulgarian,mag,yes,[oth],43
+336,988755703,1,Bulgarian,fin,no,[oth],40
+337,995646041,1,Bulgarian,fin,no,[],41
+338,15913309,1,Slovene,fin,no,[],38
+339,45043209,1,Slovene,sch,no,[oth],26
+340,65933209,1,Slovene,mag,yes,"[pol, czk, ukr, bel, oth]",43
+341,75163209,1,Slovene,fin,no,[oth],43
+342,95603309,1,Slovene,bak,no,[],12
+343,123973209,1,Slovene,fin,no,[oth],43
+344,142703209,1,Slovene,fin,no,[],32
+345,168841906,1,Slovene,bak,yes,[],42
+346,191143309,1,Slovene,fin,no,[],40
+347,201083209,1,Slovene,bak,no,[czk],34
+348,207193309,1,Slovene,fin,yes,[],28
+349,211133309,1,Slovene,fin,no,[oth],43
+350,262153309,1,Slovene,fin,no,[oth],43
+351,293233209,1,Slovene,fin,no,[oth],19
+352,331743209,1,Slovene,fin,no,[],43
+353,419913309,1,Slovene,asp,no,[bel],35
+354,433003209,1,Slovene,unk,unk,[],31
+355,435233309,1,Slovene,sch,yes,[ukr],39
+356,451313209,1,Slovene,mag,no,[],43
+357,502303209,1,Slovene,bak,no,[],43
+358,506043309,1,Slovene,fin,no,"[ukr, bel]",43
+359,523683309,1,Slovene,unk,no,[],42
+360,541243309,1,Slovene,sch,no,[],15
+361,560713209,1,Slovene,mag,no,[],30
+362,604603309,1,Slovene,fin,no,[],43
+363,654143209,1,Slovene,sch,no,[oth],43
+364,662283309,1,Slovene,mag,no,"[pol, czk, ukr, bel]",29
+365,675063209,1,Slovene,fin,no,[],40
+366,676723309,1,Slovene,unk,unk,[],37
+367,689703209,1,Slovene,fin,no,"[ukr, bel]",39
+368,702573209,1,Slovene,sch,no,[],42
+369,709893209,1,Slovene,fin,no,[oth],43
+370,758383209,1,Slovene,mag,no,[oth],19
+371,790653209,1,Slovene,unk,unk,[],41
+372,906013209,1,Slovene,fin,no,[],21
+373,909061883,1,Slovene,bak,yes,[],26
+374,912013209,1,Slovene,fin,no,[],40
+375,1776041,2,No Parallel Text,fin,yes,[oth],40
+376,6456041,2,No Parallel Text,bak,yes,[ukr],40
+377,10226041,2,No Parallel Text,bak,no,[oth],40
+378,24056041,2,No Parallel Text,sch,yes,[oth],40
+379,36946041,2,No Parallel Text,bak,no,[oth],39
+380,44633213,2,No Parallel Text,bak,yes,"[pol, czk, srb, ukr, bel]",40
+381,86640985,2,No Parallel Text,bak,no,"[pol, czk, srb, ukr, bel]",40
+382,97026041,2,No Parallel Text,fin,no,[],40
+383,135275703,2,No Parallel Text,unk,unk,[],35
+384,135511423,2,No Parallel Text,fin,no,"[pol, czk, srb, ukr, bel]",38
+385,188625670,2,No Parallel Text,bak,no,"[pol, czk, srb, ukr, bel]",40
+386,203565970,2,No Parallel Text,bak,yes,[ukr],40
+387,228216041,2,No Parallel Text,fin,no,[],35
+388,303226041,2,No Parallel Text,unk,unk,[],38
+389,333135730,2,No Parallel Text,fin,no,[ukr],40
+390,338433417,2,No Parallel Text,mag,yes,"[pol, czk, srb, ukr, bel]",40
+391,341026041,2,No Parallel Text,fin,yes,[oth],40
+392,343837633,2,No Parallel Text,bak,no,[],40
+393,348256583,2,No Parallel Text,fin,no,[oth],39
+394,362790145,2,No Parallel Text,bak,yes,"[pol, czk, srb, ukr, bel]",40
+395,373166041,2,No Parallel Text,unk,unk,[],40
+396,381235605,2,No Parallel Text,bak,no,"[pol, czk, srb, ukr, bel]",27
+397,457678194,2,No Parallel Text,sch,yes,[],39
+398,481755703,2,No Parallel Text,mag,no,[oth],40
+399,496325730,2,No Parallel Text,fin,no,[ukr],39
+400,529864326,2,No Parallel Text,mag,yes,"[srb, oth]",40
+401,579706041,2,No Parallel Text,bak,no,"[czk, ukr, bel]",12
+402,599356816,2,No Parallel Text,bak,no,[oth],37
+403,614991349,2,No Parallel Text,bak,no,"[ukr, bel]",38
+404,647955730,2,No Parallel Text,sch,yes,[ukr],40
+405,674776041,2,No Parallel Text,fin,no,[oth],40
+406,687135703,2,No Parallel Text,fin,no,[],40
+407,688196041,2,No Parallel Text,fin,no,[],40
+408,768826041,2,No Parallel Text,mag,no,[],38
+409,769744522,2,No Parallel Text,bak,no,"[pol, czk, srb, ukr, bel]",39
+410,781677361,2,No Parallel Text,bak,yes,"[pol, czk, srb, ukr, bel]",39
+411,782905703,2,No Parallel Text,mag,yes,[oth],40
+412,799095703,2,No Parallel Text,fin,no,[],40
+413,825409957,2,No Parallel Text,sch,no,[],40
+414,828965703,2,No Parallel Text,fin,no,[oth],40
+415,830156041,2,No Parallel Text,sch,no,[ukr],40
+416,917997013,2,No Parallel Text,bak,yes,"[pol, czk, srb, ukr, bel]",33
+417,924316041,2,No Parallel Text,sch,no,[oth],40
+418,954706554,2,No Parallel Text,bak,no,[],38
+419,968307722,2,No Parallel Text,bak,no,[],40
+420,990188887,2,No Parallel Text,bak,yes,"[pol, czk, srb, ukr, bel]",32
+421,6256041,2,Polish,bak,yes,[],40
+422,31244114,2,Polish,fin,no,[],25
+423,39296677,2,Polish,mag,yes,[],40
+424,87620896,2,Polish,unk,unk,[bel],40
+425,89444197,2,Polish,unk,unk,[],40
+426,91276041,2,Polish,fin,no,[oth],40
+427,95253154,2,Polish,fin,no,[],35
+428,105915433,2,Polish,sch,no,[],37
+429,193629314,2,Polish,bak,no,[],34
+430,256626041,2,Polish,bak,yes,[oth],39
+431,263376041,2,Polish,bak,no,[],40
+432,292346041,2,Polish,fin,no,[oth],40
+433,292816041,2,Polish,unk,no,[],40
+434,299176041,2,Polish,fin,no,[bel],39
+435,301335305,2,Polish,unk,unk,[],40
+436,342620561,2,Polish,bak,no,[oth],32
+437,353969801,2,Polish,unk,unk,[],20
+438,381146041,2,Polish,fin,no,[ukr],37
+439,395879997,2,Polish,unk,unk,[],33
+440,473417439,2,Polish,fin,no,[],36
+441,473696883,2,Polish,bak,yes,[bel],35
+442,489975730,2,Polish,fin,no,[oth],40
+443,503805730,2,Polish,unk,unk,[],39
+444,504026041,2,Polish,unk,no,[],37
+445,526635730,2,Polish,unk,unk,[],36
+446,543985922,2,Polish,bak,no,[],35
+447,567705400,2,Polish,bak,no,[],28
+448,567976041,2,Polish,mag,no,[oth],35
+449,597396041,2,Polish,fin,yes,[],37
+450,644726041,2,Polish,fin,no,[oth],33
+451,654955421,2,Polish,bak,no,[],34
+452,674592235,2,Polish,bak,no,[],32
+453,698916041,2,Polish,fin,yes,[],20
+454,725626451,2,Polish,bak,no,[],26
+455,749735916,2,Polish,bak,no,[],20
+456,793416041,2,Polish,sch,no,[oth],40
+457,815221240,2,Polish,bak,no,[],36
+458,824731994,2,Polish,sch,no,[oth],32
+459,832961235,2,Polish,asp,yes,[],32
+460,886065262,2,Polish,bak,no,[oth],32
+461,908306041,2,Polish,fin,no,[ukr],40
+462,927716041,2,Polish,fin,no,[oth],40
+463,938136041,2,Polish,sch,no,[oth],39
+464,952429996,2,Polish,sch,no,[],33
+465,51096041,2,Serbian,fin,no,[],40
+466,61725730,2,Serbian,unk,unk,[],36
+467,62355073,2,Serbian,sch,unk,[],37
+468,67496041,2,Serbian,fin,no,[],23
+469,67825730,2,Serbian,fin,unk,[],34
+470,73865730,2,Serbian,unk,no,"[ukr, bel]",40
+471,147354161,2,Serbian,fin,no,[],39
+472,222705296,2,Serbian,mag,no,[],31
+473,232025995,2,Serbian,fin,no,[],40
+474,273345503,2,Serbian,mag,no,[],29
+475,312063309,2,Serbian,bak,no,[oth],13
+476,358940030,2,Serbian,sch,no,[oth],32
+477,396785971,2,Serbian,unk,unk,[],36
+478,443205730,2,Serbian,fin,no,[ukr],40
+479,455799205,2,Serbian,bak,no,[],19
+480,462775703,2,Serbian,bak,yes,[oth],35
+481,494896041,2,Serbian,bak,yes,[oth],39
+482,579146041,2,Serbian,sch,no,[oth],40
+483,584091791,2,Serbian,sch,no,[],37
+484,599174373,2,Serbian,bak,no,[],23
+485,607633797,2,Serbian,sch,no,[ukr],11
+486,615855979,2,Serbian,bak,yes,[],40
+487,623089386,2,Serbian,fin,no,[],25
+488,627886041,2,Serbian,sch,yes,[oth],40
+489,631966041,2,Serbian,bak,no,[ukr],16
+490,653988362,2,Serbian,sch,unk,[],30
+491,683425703,2,Serbian,bak,no,[],40
+492,735075703,2,Serbian,unk,unk,[],37
+493,738942592,2,Serbian,bak,yes,[],28
+494,746719682,2,Serbian,mag,yes,"[pol, ukr, bel, svk]",40
+495,750126536,2,Serbian,bak,no,[],34
+496,783626806,2,Serbian,bak,no,[ukr],10
+497,864623118,2,Serbian,bak,no,[],40
+498,865896838,2,Serbian,fin,no,[],40
+499,910610300,2,Serbian,fin,yes,"[czk, ukr, oth]",33
+500,941123475,2,Serbian,bak,no,[],18
+501,986127626,2,Serbian,bak,no,[],40
+502,9623310,2,Czech,bak,no,[ukr],36
+503,18845703,2,Czech,mag,no,"[ukr, bel]",40
+504,30266041,2,Czech,fin,no,[oth],33
+505,46321316,2,Czech,fin,no,[oth],38
+506,77215730,2,Czech,fin,no,[ukr],38
+507,79140933,2,Czech,bak,no,[oth],32
+508,119262028,2,Czech,fin,no,[oth],37
+509,129716041,2,Czech,bak,unk,"[ukr, bel, oth]",40
+510,136132682,2,Czech,fin,yes,"[pol, ukr]",40
+511,142226871,2,Czech,bak,no,[],32
+512,147586041,2,Czech,bak,no,[oth],40
+513,159541862,2,Czech,fin,yes,[],21
+514,186938092,2,Czech,sch,yes,[],39
+515,194813438,2,Czech,bak,no,[],39
+516,283538970,2,Czech,bak,no,[ukr],9
+517,347066426,2,Czech,fin,no,[],39
+518,390955730,2,Czech,fin,no,[oth],39
+519,396718611,2,Czech,unk,no,[],38
+520,427163409,2,Czech,bak,no,[],10
+521,444735730,2,Czech,fin,no,[],39
+522,450959941,2,Czech,bak,no,[],32
+523,490396041,2,Czech,sch,no,[oth],40
+524,583883498,2,Czech,bak,no,[],33
+525,586946652,2,Czech,bak,no,[],23
+526,594866041,2,Czech,sch,no,[ukr],40
+527,629210522,2,Czech,mag,yes,[],37
+528,630786041,2,Czech,unk,unk,[],14
+529,640243409,2,Czech,fin,no,[],40
+530,662883078,2,Czech,mag,no,[oth],38
+531,706526041,2,Czech,mag,yes,[ukr],40
+532,710424675,2,Czech,bak,no,[],9
+533,757534259,2,Czech,bak,no,[oth],27
+534,806657802,2,Czech,bak,no,[],39
+535,834095730,2,Czech,fin,no,[],40
+536,888535730,2,Czech,fin,no,[ukr],39
+537,936405599,2,Czech,bak,yes,[ukr],33
+538,972488639,2,Czech,mag,no,[oth],40
+539,999789397,2,Czech,fin,no,[],35
+540,31675018,2,Ukranian,bak,no,[oth],39
+541,37035226,2,Ukranian,bak,yes,[],40
+542,57795733,2,Ukranian,bak,no,[],39
+543,85973309,2,Ukranian,bak,yes,[oth],40
+544,102196041,2,Ukranian,sch,no,[],40
+545,134410696,2,Ukranian,bak,no,[],39
+546,156357319,2,Ukranian,mag,no,[],40
+547,156860927,2,Ukranian,bak,no,[],33
+548,248029287,2,Ukranian,bak,no,[],39
+549,310348081,2,Ukranian,sch,no,[],38
+550,313737835,2,Ukranian,bak,no,[],33
+551,430555730,2,Ukranian,fin,no,[oth],40
+552,462025730,2,Ukranian,fin,no,[],32
+553,468013148,2,Ukranian,bak,no,[],38
+554,475225730,2,Ukranian,sch,no,[],40
+555,486083409,2,Ukranian,fin,no,[],40
+556,506536041,2,Ukranian,sch,no,[oth],34
+557,538215703,2,Ukranian,bak,no,[oth],37
+558,571221648,2,Ukranian,fin,no,[],39
+559,581839931,2,Ukranian,bak,no,[],33
+560,611833125,2,Ukranian,bak,no,[oth],37
+561,638722962,2,Ukranian,bak,no,[],40
+562,651886041,2,Ukranian,fin,no,[],27
+563,658306337,2,Ukranian,bak,no,[],34
+564,664095730,2,Ukranian,asp,yes,[],40
+565,677825703,2,Ukranian,fin,no,[],24
+566,699851227,2,Ukranian,bak,no,[oth],34
+567,761901654,2,Ukranian,bak,no,[],36
+568,781201077,2,Ukranian,bak,yes,"[czk, bel]",40
+569,788020958,2,Ukranian,bak,no,[],36
+570,791006041,2,Ukranian,mag,no,[],36
+571,822845568,2,Ukranian,bak,no,[],12
+572,869909434,2,Ukranian,mag,no,[],40
+573,908335703,2,Ukranian,fin,no,[],36
+574,924686041,2,Ukranian,sch,no,[],40
+575,926007430,2,Ukranian,bak,no,[oth],9
+576,939061456,2,Ukranian,bak,yes,[],39
+577,26683169,2,Belarussian,sch,no,[ukr],38
+578,52034456,2,Belarussian,bak,no,[],28
+579,58994362,2,Belarussian,bak,no,[],38
+580,109546041,2,Belarussian,mag,yes,[oth],35
+581,144412012,2,Belarussian,sch,no,[],33
+582,152056041,2,Belarussian,fin,no,[],39
+583,221930229,2,Belarussian,fin,no,[oth],24
+584,238278703,2,Belarussian,fin,no,[],38
+585,275456041,2,Belarussian,bak,no,[oth],38
+586,313849535,2,Belarussian,bak,no,[],15
+587,332926041,2,Belarussian,unk,unk,[],38
+588,374874243,2,Belarussian,bak,no,[oth],40
+589,501655703,2,Belarussian,mag,no,[oth],40
+590,502559279,2,Belarussian,bak,no,[],23
+591,513775703,2,Belarussian,bak,no,[ukr],37
+592,596638273,2,Belarussian,bak,no,[],37
+593,614088400,2,Belarussian,fin,no,[],35
+594,626406041,2,Belarussian,mag,yes,[ukr],40
+595,657107490,2,Belarussian,mag,no,[oth],39
+596,699766715,2,Belarussian,sch,yes,[oth],37
+597,707909682,2,Belarussian,asp,no,[ukr],35
+598,736745730,2,Belarussian,fin,no,[ukr],39
+599,740221886,2,Belarussian,unk,unk,[],37
+600,783720240,2,Belarussian,mag,yes,[oth],35
+601,794278315,2,Belarussian,sch,no,[],40
+602,802055730,2,Belarussian,mag,no,[oth],40
+603,805893160,2,Belarussian,bak,no,[],39
+604,811306041,2,Belarussian,sch,no,[],31
+605,829646454,2,Belarussian,bak,no,[oth],31
+606,859183309,2,Belarussian,fin,no,[],40
+607,872018004,2,Belarussian,bak,yes,[oth],40
+608,876015730,2,Belarussian,fin,no,[oth],38
+609,912195730,2,Belarussian,fin,no,[oth],40
+610,927186041,2,Belarussian,asp,no,[oth],38
+611,956398712,2,Belarussian,asp,yes,[oth],37
+612,964800090,2,Belarussian,bak,no,[],38
+613,980473309,2,Belarussian,fin,no,[ukr],38
+614,999789396,2,Belarussian,bak,yes,[],40
+615,14644718,2,Slovak,bak,no,[oth],39
+616,28029144,2,Slovak,unk,unk,[],39
+617,37236041,2,Slovak,fin,no,[oth],40
+618,93656041,2,Slovak,fin,no,[oth],40
+619,117566041,2,Slovak,bak,no,[oth],40
+620,157205730,2,Slovak,fin,no,[oth],33
+621,189786041,2,Slovak,bak,no,[],38
+622,191991048,2,Slovak,bak,no,[],18
+623,198863788,2,Slovak,mag,no,[],38
+624,218050577,2,Slovak,bak,no,[ukr],18
+625,244426041,2,Slovak,bak,no,[oth],40
+626,258465030,2,Slovak,bak,yes,"[pol, czk, srb]",39
+627,264846041,2,Slovak,sch,yes,[],40
+628,287286041,2,Slovak,sch,no,[ukr],39
+629,312686041,2,Slovak,fin,yes,[ukr],35
+630,325090010,2,Slovak,mag,yes,"[pol, ukr]",40
+631,332536041,2,Slovak,fin,no,[bel],37
+632,333811302,2,Slovak,asp,yes,"[pol, srb]",39
+633,334546041,2,Slovak,mag,no,[],40
+634,339446041,2,Slovak,fin,no,[],38
+635,361236041,2,Slovak,fin,no,"[ukr, oth]",38
+636,406966041,2,Slovak,unk,unk,[],38
+637,427696041,2,Slovak,sch,no,"[ukr, bel]",40
+638,451850563,2,Slovak,bak,no,[],38
+639,451975730,2,Slovak,bak,no,[],13
+640,517645703,2,Slovak,mag,no,[],27
+641,523026041,2,Slovak,bak,no,[oth],38
+642,543056041,2,Slovak,bak,no,[],39
+643,558106041,2,Slovak,bak,yes,[bel],39
+644,594075730,2,Slovak,bak,no,"[ukr, bel, oth]",39
+645,603540586,2,Slovak,bak,no,[],40
+646,611835563,2,Slovak,sch,yes,[],37
+647,628356041,2,Slovak,fin,no,[],39
+648,640727958,2,Slovak,bak,no,[],37
+649,642643212,2,Slovak,mag,yes,[],25
+650,648186041,2,Slovak,fin,no,[oth],11
+651,654746041,2,Slovak,unk,unk,[],39
+652,657295703,2,Slovak,fin,no,[oth],39
+653,658766041,2,Slovak,unk,unk,[],36
+654,700774972,2,Slovak,sch,no,[oth],38
+655,705976041,2,Slovak,fin,no,[oth],40
+656,706736041,2,Slovak,mag,no,[],40
+657,713356694,2,Slovak,sch,no,[ukr],10
+658,716864675,2,Slovak,unk,unk,[],40
+659,739315703,2,Slovak,sch,no,[oth],16
+660,753005703,2,Slovak,bak,no,[oth],37
+661,767479019,2,Slovak,fin,no,[],39
+662,776376041,2,Slovak,bak,no,[],38
+663,779399076,2,Slovak,bak,unk,[],38
+664,840005730,2,Slovak,fin,no,[ukr],40
+665,852486041,2,Slovak,fin,no,[],36
+666,886556041,2,Slovak,fin,no,[oth],40
+667,927642940,2,Slovak,bak,no,[],27
+668,937836041,2,Slovak,sch,no,[ukr],38
+669,940536041,2,Slovak,bak,no,"[bel, oth]",23
+670,942797120,2,Slovak,fin,no,[],38
+671,949796041,2,Slovak,bak,no,[oth],11
+672,961549925,2,Slovak,fin,no,[],37
+673,999596583,2,Slovak,bak,no,[],30
+674,67535730,2,Bulgarian,fin,no,[],36
+675,73175730,2,Bulgarian,fin,yes,[],38
+676,74561159,2,Bulgarian,bak,no,[oth],39
+677,128795916,2,Bulgarian,asp,no,[],37
+678,154705730,2,Bulgarian,bak,no,[oth],40
+679,207205703,2,Bulgarian,fin,no,[],40
+680,209445730,2,Bulgarian,unk,unk,[],22
+681,212432036,2,Bulgarian,bak,no,[ukr],37
+682,224315730,2,Bulgarian,fin,no,"[pol, bel]",34
+683,307931829,2,Bulgarian,bak,no,[],37
+684,310835730,2,Bulgarian,sch,no,[],40
+685,322708393,2,Bulgarian,bak,yes,[],37
+686,351430036,2,Bulgarian,bak,no,[],30
+687,407816041,2,Bulgarian,bak,no,[oth],38
+688,438243535,2,Bulgarian,fin,no,[pol],34
+689,448954894,2,Bulgarian,fin,no,[ukr],40
+690,465742554,2,Bulgarian,bak,no,[],31
+691,512114351,2,Bulgarian,bak,yes,[],33
+692,545685703,2,Bulgarian,unk,unk,[],38
+693,561132390,2,Bulgarian,bak,no,[ukr],37
+694,565088070,2,Bulgarian,fin,no,[],39
+695,634541321,2,Bulgarian,bak,no,[],40
+696,658426041,2,Bulgarian,mag,no,"[pol, ukr]",39
+697,693956041,2,Bulgarian,bak,no,[ukr],35
+698,754316174,2,Bulgarian,fin,no,[],39
+699,768733248,2,Bulgarian,asp,no,[oth],39
+700,770875818,2,Bulgarian,mag,yes,[],38
+701,784904783,2,Bulgarian,sch,unk,[],33
+702,797509504,2,Bulgarian,fin,no,[ukr],36
+703,858808978,2,Bulgarian,mag,yes,[],34
+704,889932700,2,Bulgarian,sch,no,[],34
+705,910105730,2,Bulgarian,fin,no,[ukr],38
+706,973783952,2,Bulgarian,bak,yes,[],38
+707,991006773,2,Bulgarian,fin,no,[],40
+708,996546041,2,Bulgarian,mag,no,[],38
+709,997910237,2,Bulgarian,bak,no,[ukr],8
+710,998206312,2,Bulgarian,unk,no,[],21
+711,16523209,2,Slovene,fin,no,[ukr],40
+712,39383209,2,Slovene,bak,no,[],40
+713,89176738,2,Slovene,fin,no,[],38
+714,92903209,2,Slovene,fin,no,[],40
+715,206643209,2,Slovene,fin,yes,[oth],40
+716,220433309,2,Slovene,fin,no,[oth],40
+717,241153209,2,Slovene,fin,no,"[ukr, oth]",25
+718,252643209,2,Slovene,unk,unk,[],40
+719,253933209,2,Slovene,bak,no,[],40
+720,289373309,2,Slovene,bak,no,[oth],40
+721,433423209,2,Slovene,mag,no,[],38
+722,452973309,2,Slovene,bak,no,[],33
+723,462353309,2,Slovene,fin,no,[],40
+724,463613209,2,Slovene,fin,no,[],40
+725,473883309,2,Slovene,unk,unk,[],37
+726,478273309,2,Slovene,mag,no,[ukr],40
+727,493633209,2,Slovene,unk,unk,[],40
+728,495173309,2,Slovene,sch,no,[],40
+729,505893209,2,Slovene,fin,no,[oth],38
+730,574833209,2,Slovene,fin,yes,[],21
+731,578403209,2,Slovene,fin,no,[],39
+732,595713309,2,Slovene,fin,no,[],37
+733,598233209,2,Slovene,unk,unk,[],40
+734,626833209,2,Slovene,fin,no,[],39
+735,684223309,2,Slovene,mag,yes,[ukr],40
+736,709843209,2,Slovene,bak,no,[oth],39
+737,729013309,2,Slovene,fin,no,[],20
+738,759643209,2,Slovene,fin,no,[oth],40
+739,780603309,2,Slovene,bak,no,[oth],40
+740,831373309,2,Slovene,fin,no,[],40
+741,890183309,2,Slovene,unk,unk,[],38
+742,925683209,2,Slovene,fin,no,[],39
+743,936383309,2,Slovene,unk,unk,[],38
+744,949703309,2,Slovene,bak,no,[],34
+745,973153209,2,Slovene,sch,no,[oth],23
+746,981663209,2,Slovene,fin,no,[oth],39
+747,999744448,2,Slovene,mag,yes,[],40
+748,3723209,3,No Parallel Text,fin,no,[],30
+749,165623309,3,No Parallel Text,fin,no,[],35
+750,174493309,3,No Parallel Text,bak,yes,[czk],28
+751,184133209,3,No Parallel Text,fin,no,[],35
+752,200193309,3,No Parallel Text,bak,no,[],35
+753,315333309,3,No Parallel Text,bak,no,[],35
+754,353883309,3,No Parallel Text,bak,no,[oth],35
+755,392873309,3,No Parallel Text,sch,no,[oth],35
+756,475253209,3,No Parallel Text,fin,no,[ukr],35
+757,525103209,3,No Parallel Text,unk,no,[],35
+758,566743309,3,No Parallel Text,fin,yes,[],35
+759,663133309,3,No Parallel Text,unk,unk,[],35
+760,793283309,3,No Parallel Text,fin,no,[oth],22
+761,831483309,3,No Parallel Text,bak,no,[],35
+762,849703309,3,No Parallel Text,fin,no,[oth],35
+763,908863309,3,No Parallel Text,fin,yes,[],35
+764,961433409,3,No Parallel Text,fin,no,[],35
+765,1109709299,3,No Parallel Text,unk2,unk2,[],31
+766,1148438146,3,No Parallel Text,unk2,unk2,[],35
+767,1164616884,3,No Parallel Text,unk2,unk2,[],35
+768,1240097662,3,No Parallel Text,unk2,unk2,[],35
+769,1444865570,3,No Parallel Text,unk2,unk2,[],16
+770,1502541804,3,No Parallel Text,unk2,unk2,[],30
+771,1557963925,3,No Parallel Text,unk2,unk2,[],33
+772,1595222384,3,No Parallel Text,unk2,unk2,[],35
+773,1627589007,3,No Parallel Text,unk2,unk2,[],13
+774,1650249870,3,No Parallel Text,unk2,unk2,[],34
+775,1659205498,3,No Parallel Text,unk2,unk2,[],35
+776,1667475959,3,No Parallel Text,unk2,unk2,[],35
+777,1673825458,3,No Parallel Text,unk2,unk2,[],35
+778,1749159811,3,No Parallel Text,unk2,unk2,[],34
+779,1772653042,3,No Parallel Text,unk2,unk2,[],34
+780,1792985450,3,No Parallel Text,unk2,unk2,[],35
+781,1901462901,3,No Parallel Text,unk2,unk2,[],30
+782,1906501074,3,No Parallel Text,unk2,unk2,[],27
+783,1915932415,3,No Parallel Text,unk2,unk2,[],35
+784,1985656975,3,No Parallel Text,unk2,unk2,[],35
+785,19223209,3,Polish,fin,no,[],35
+786,42833309,3,Polish,fin,no,[oth],35
+787,114883209,3,Polish,bak,no,[ukr],35
+788,169855575,3,Polish,unk2,unk2,[],35
+789,176307538,3,Polish,unk2,unk2,[],35
+790,185213028,3,Polish,unk2,unk2,[],13
+791,196773209,3,Polish,fin,no,[],35
+792,238973309,3,Polish,mag,no,[oth],35
+793,296873309,3,Polish,bak,yes,[oth],32
+794,360823209,3,Polish,mag,no,[oth],35
+795,387003209,3,Polish,bak,no,[oth],35
+796,394603309,3,Polish,fin,no,[oth],33
+797,475343309,3,Polish,fin,no,[oth],35
+798,499673309,3,Polish,fin,no,[oth],29
+799,550453309,3,Polish,bak,no,[],35
+800,600383309,3,Polish,bak,no,[oth],35
+801,616863209,3,Polish,fin,no,[oth],35
+802,679383309,3,Polish,fin,yes,[oth],32
+803,681073309,3,Polish,fin,no,[],35
+804,684783309,3,Polish,fin,no,[],35
+805,755693309,3,Polish,bak,no,[ukr],35
+806,937703309,3,Polish,bak,yes,[oth],35
+807,966043309,3,Polish,sch,no,[oth],28
+808,1171684663,3,Polish,unk2,unk2,[],21
+809,1197061316,3,Polish,unk2,unk2,[],32
+810,1197581064,3,Polish,unk2,unk2,[],35
+811,1239279611,3,Polish,unk2,unk2,[],18
+812,1253746603,3,Polish,unk2,unk2,[],35
+813,1262862278,3,Polish,unk2,unk2,[],35
+814,1378524541,3,Polish,unk2,unk2,[],22
+815,1524838473,3,Polish,unk2,unk2,[],25
+816,1526597568,3,Polish,unk2,unk2,[],35
+817,1569992079,3,Polish,unk2,unk2,[],35
+818,1651416746,3,Polish,unk2,unk2,[],25
+819,1707174419,3,Polish,unk2,unk2,[],31
+820,1779941122,3,Polish,unk2,unk2,[],17
+821,1787871339,3,Polish,unk2,unk2,[],15
+822,1975090044,3,Polish,unk2,unk2,[],25
+823,12783409,3,Serbian,mag,no,[],34
+824,44293409,3,Serbian,fin,no,"[ukr, bel]",35
+825,86593409,3,Serbian,mag,no,[oth],35
+826,89233409,3,Serbian,mag,no,[oth],35
+827,107783409,3,Serbian,fin,no,[],35
+828,152353409,3,Serbian,fin,no,[oth],35
+829,233668312,3,Serbian,unk,unk,[],35
+830,235073409,3,Serbian,unk,unk,[],35
+831,259503409,3,Serbian,fin,no,[oth],35
+832,303573409,3,Serbian,bak,yes,"[ukr, bel]",35
+833,306833409,3,Serbian,unk,unk,[],35
+834,312153409,3,Serbian,fin,yes,[],35
+835,362593409,3,Serbian,fin,no,[oth],34
+836,383323409,3,Serbian,fin,no,[oth],35
+837,399353409,3,Serbian,bak,no,[ukr],35
+838,421463409,3,Serbian,mag,yes,[pol],35
+839,444293409,3,Serbian,mag,yes,[],35
+840,491163409,3,Serbian,fin,no,[],35
+841,528813409,3,Serbian,unk,unk,[],35
+842,550383409,3,Serbian,mag,no,[oth],35
+843,550853409,3,Serbian,fin,no,[oth],35
+844,566523409,3,Serbian,fin,no,[],35
+845,583233409,3,Serbian,mag,no,[ukr],35
+846,613373409,3,Serbian,fin,yes,[],35
+847,646413409,3,Serbian,sch,no,[oth],34
+848,683193409,3,Serbian,fin,no,[],35
+849,723863409,3,Serbian,fin,no,[],35
+850,727213409,3,Serbian,bak,no,[oth],33
+851,867723409,3,Serbian,fin,yes,[],34
+852,878243409,3,Serbian,bak,no,[oth],35
+853,915783409,3,Serbian,fin,no,[],35
+854,944113409,3,Serbian,fin,no,[bel],35
+855,965863409,3,Serbian,fin,no,[oth],35
+856,17583309,3,Czech,fin,yes,[],32
+857,46583309,3,Czech,unk,unk,[],28
+858,62933309,3,Czech,fin,no,[ukr],34
+859,100213309,3,Czech,fin,no,[oth],35
+860,116862412,3,Czech,unk2,unk2,[],34
+861,121616302,3,Czech,unk2,unk2,[],33
+862,239563309,3,Czech,unk,unk,[],33
+863,259683409,3,Czech,fin,no,[],27
+864,388153309,3,Czech,fin,no,[],31
+865,417793309,3,Czech,unk,unk,[],14
+866,427473209,3,Czech,sch,no,[],35
+867,459473309,3,Czech,bak,unk,[oth],24
+868,628733309,3,Czech,unk,unk,[],14
+869,724343309,3,Czech,fin,no,[oth],35
+870,727513309,3,Czech,bak,no,[oth],32
+871,771363209,3,Czech,bak,no,[oth],35
+872,952093309,3,Czech,fin,no,[],32
+873,973703209,3,Czech,mag,yes,[],35
+874,1120730125,3,Czech,unk2,unk2,[],7
+875,1120792020,3,Czech,unk2,unk2,[],35
+876,1162393346,3,Czech,unk2,unk2,[],35
+877,1166261676,3,Czech,unk2,unk2,[],17
+878,1183425805,3,Czech,unk2,unk2,[],26
+879,1201304874,3,Czech,unk2,unk2,[],35
+880,1308429160,3,Czech,unk2,unk2,[],22
+881,1457937784,3,Czech,unk2,unk2,[],35
+882,1525960146,3,Czech,unk2,unk2,[],33
+883,1562157951,3,Czech,unk2,unk2,[],20
+884,1605306965,3,Czech,unk2,unk2,[],7
+885,1649938910,3,Czech,unk2,unk2,[],7
+886,1650788713,3,Czech,unk2,unk2,[],34
+887,1756718359,3,Czech,unk2,unk2,[],23
+888,1804035107,3,Czech,unk2,unk2,[],13
+889,1817081834,3,Czech,unk2,unk2,[],30
+890,1863098478,3,Czech,unk2,unk2,[],35
+891,1868727784,3,Czech,unk2,unk2,[],19
+892,1921376435,3,Czech,unk2,unk2,[],35
+893,5573309,3,Ukranian,unk,unk,[],35
+894,41943309,3,Ukranian,fin,no,[oth],30
+895,112883309,3,Ukranian,bak,yes,[srb],35
+896,141673309,3,Ukranian,fin,no,[],26
+897,142924052,3,Ukranian,unk2,unk2,[],35
+898,167421488,3,Ukranian,unk2,unk2,[],32
+899,172833209,3,Ukranian,mag,no,[oth],35
+900,215213309,3,Ukranian,fin,no,[],35
+901,306373309,3,Ukranian,bak,no,[oth],34
+902,355363309,3,Ukranian,fin,no,[],30
+903,385863309,3,Ukranian,unk,no,[oth],21
+904,573453309,3,Ukranian,bak,no,[],35
+905,604223309,3,Ukranian,mag,no,[oth],35
+906,607363309,3,Ukranian,fin,no,[],27
+907,659153309,3,Ukranian,fin,no,[],35
+908,683213309,3,Ukranian,mag,no,[],33
+909,706183309,3,Ukranian,bak,no,[],33
+910,913783209,3,Ukranian,fin,no,[],35
+911,919793209,3,Ukranian,fin,no,[],35
+912,1182496489,3,Ukranian,unk2,unk2,[],23
+913,1346821668,3,Ukranian,unk2,unk2,[],32
+914,1395674301,3,Ukranian,unk2,unk2,[],32
+915,1439104471,3,Ukranian,unk2,unk2,[],35
+916,1456772012,3,Ukranian,unk2,unk2,[],35
+917,1552360023,3,Ukranian,unk2,unk2,[],35
+918,1644254627,3,Ukranian,unk2,unk2,[],34
+919,1655588306,3,Ukranian,unk2,unk2,[],28
+920,1678607820,3,Ukranian,unk2,unk2,[],34
+921,1683052263,3,Ukranian,unk2,unk2,[],30
+922,1701668292,3,Ukranian,unk2,unk2,[],33
+923,1783234490,3,Ukranian,unk2,unk2,[],34
+924,1783756846,3,Ukranian,unk2,unk2,[],32
+925,1796590658,3,Ukranian,unk2,unk2,[],35
+926,1822868009,3,Ukranian,unk2,unk2,[],35
+927,1869719439,3,Ukranian,unk2,unk2,[],35
+928,1884788724,3,Ukranian,unk2,unk2,[],35
+929,1988745029,3,Ukranian,unk2,unk2,[],29
+930,8553309,3,Belarussian,bak,no,[oth],35
+931,48183209,3,Belarussian,fin,no,[],33
+932,59293209,3,Belarussian,bak,no,[],35
+933,63363309,3,Belarussian,bak,no,"[ukr, oth]",35
+934,110144811,3,Belarussian,unk2,unk2,[],33
+935,188476722,3,Belarussian,unk2,unk2,[],35
+936,237393309,3,Belarussian,sch,no,[],35
+937,256973309,3,Belarussian,fin,no,[ukr],33
+938,320393209,3,Belarussian,fin,no,[],28
+939,390053309,3,Belarussian,bak,no,"[ukr, oth]",35
+940,428263309,3,Belarussian,fin,no,[ukr],34
+941,458583309,3,Belarussian,fin,no,[],33
+942,587613209,3,Belarussian,bak,no,"[ukr, oth]",27
+943,613833309,3,Belarussian,sch,yes,[],33
+944,676853309,3,Belarussian,mag,no,[],35
+945,721243409,3,Belarussian,fin,no,[ukr],33
+946,787203309,3,Belarussian,fin,no,[oth],28
+947,815663309,3,Belarussian,fin,no,[ukr],25
+948,827863309,3,Belarussian,fin,no,[],35
+949,881873209,3,Belarussian,fin,no,[],34
+950,881883309,3,Belarussian,fin,yes,"[ukr, oth]",35
+951,1175297459,3,Belarussian,unk2,unk2,[],33
+952,1237311607,3,Belarussian,unk2,unk2,[],33
+953,1242039967,3,Belarussian,unk2,unk2,[],35
+954,1247649031,3,Belarussian,unk2,unk2,[],27
+955,1253483742,3,Belarussian,unk2,unk2,[],35
+956,1373603257,3,Belarussian,unk2,unk2,[],34
+957,1399756578,3,Belarussian,unk2,unk2,[],25
+958,1441281858,3,Belarussian,unk2,unk2,[],31
+959,1449477573,3,Belarussian,unk2,unk2,[],29
+960,1604556861,3,Belarussian,unk2,unk2,[],34
+961,1682140817,3,Belarussian,unk2,unk2,[],34
+962,1685576003,3,Belarussian,unk2,unk2,[],26
+963,1756698177,3,Belarussian,unk2,unk2,[],30
+964,1776472656,3,Belarussian,unk2,unk2,[],35
+965,1839279928,3,Belarussian,unk2,unk2,[],25
+966,1880528688,3,Belarussian,unk2,unk2,[],34
+967,16623209,3,Slovak,sch,no,[],35
+968,105763309,3,Slovak,unk,unk,[],34
+969,121813209,3,Slovak,bak,no,[oth],35
+970,148033309,3,Slovak,bak,no,[],35
+971,148863209,3,Slovak,fin,no,[oth],35
+972,162463209,3,Slovak,bak,no,[ukr],35
+973,261453309,3,Slovak,bak,unk,[],32
+974,270913309,3,Slovak,sch,no,[],35
+975,296593309,3,Slovak,bak,no,[oth],35
+976,336273309,3,Slovak,fin,no,[],35
+977,367453309,3,Slovak,mag,no,[oth],34
+978,394353309,3,Slovak,fin,no,[ukr],31
+979,404273209,3,Slovak,fin,yes,[oth],32
+980,405323209,3,Slovak,fin,no,[],30
+981,413873209,3,Slovak,fin,unk,[pol],24
+982,414853309,3,Slovak,fin,no,[oth],33
+983,452923209,3,Slovak,fin,no,[],34
+984,456283209,3,Slovak,bak,no,[],26
+985,461573209,3,Slovak,fin,no,[],32
+986,490073209,3,Slovak,unk,unk,[oth],28
+987,496283309,3,Slovak,fin,no,[ukr],34
+988,516993309,3,Slovak,fin,no,[oth],31
+989,551383209,3,Slovak,fin,no,[],31
+990,555143209,3,Slovak,fin,no,[],34
+991,602853309,3,Slovak,bak,no,[],35
+992,608753209,3,Slovak,fin,no,[],34
+993,651413209,3,Slovak,unk,unk,[],34
+994,691213209,3,Slovak,unk,no,[oth],35
+995,702473209,3,Slovak,unk,no,[],35
+996,759393209,3,Slovak,sch,no,[oth],26
+997,793113309,3,Slovak,mag,no,[oth],29
+998,845243209,3,Slovak,fin,no,[ukr],35
+999,883763209,3,Slovak,bak,no,[],27
+1000,916463209,3,Slovak,fin,no,[ukr],35
+1001,923463209,3,Slovak,unk,unk,[],34
+1002,931703309,3,Slovak,fin,no,[],35
+1003,967483209,3,Slovak,fin,yes,[ukr],34
+1004,973433309,3,Slovak,sch,yes,[],35
+1005,991293309,3,Slovak,fin,no,[],16
+1006,23993309,3,Bulgarian,unk,unk,[],34
+1007,194645450,3,Bulgarian,unk2,unk2,[],35
+1008,232583309,3,Bulgarian,fin,no,[],26
+1009,270823309,3,Bulgarian,bak,no,[],35
+1010,333973309,3,Bulgarian,fin,no,[],35
+1011,436443209,3,Bulgarian,mag,no,"[ukr, bel]",27
+1012,446063309,3,Bulgarian,fin,no,"[ukr, bel]",35
+1013,449273309,3,Bulgarian,bak,no,[oth],35
+1014,473203209,3,Bulgarian,fin,no,"[ukr, oth]",35
+1015,489013309,3,Bulgarian,sch,no,[],35
+1016,595233209,3,Bulgarian,bak,no,[],10
+1017,678233309,3,Bulgarian,fin,no,[],27
+1018,767443309,3,Bulgarian,mag,no,[],28
+1019,825893309,3,Bulgarian,bak,no,[ukr],31
+1020,878493209,3,Bulgarian,fin,yes,[],35
+1021,938543309,3,Bulgarian,bak,no,[oth],34
+1022,993143309,3,Bulgarian,bak,no,"[pol, czk, ukr, bel]",35
+1023,1166636860,3,Bulgarian,unk2,unk2,[],30
+1024,1199565659,3,Bulgarian,unk2,unk2,[],24
+1025,1210752350,3,Bulgarian,unk2,unk2,[],35
+1026,1410003305,3,Bulgarian,unk2,unk2,[],35
+1027,1418107290,3,Bulgarian,unk2,unk2,[],35
+1028,1475912198,3,Bulgarian,unk2,unk2,[],27
+1029,1512163149,3,Bulgarian,unk2,unk2,[],22
+1030,1515817744,3,Bulgarian,unk2,unk2,[],35
+1031,1525963350,3,Bulgarian,unk2,unk2,[],35
+1032,1599505603,3,Bulgarian,unk2,unk2,[],33
+1033,1624431639,3,Bulgarian,unk2,unk2,[],35
+1034,1637584472,3,Bulgarian,unk2,unk2,[],35
+1035,1650723811,3,Bulgarian,unk2,unk2,[],35
+1036,1715458785,3,Bulgarian,unk2,unk2,[],35
+1037,1717470589,3,Bulgarian,unk2,unk2,[],22
+1038,1749731021,3,Bulgarian,unk2,unk2,[],34
+1039,1852610904,3,Bulgarian,unk2,unk2,[],33
+1040,1870913093,3,Bulgarian,unk2,unk2,[],34
+1041,1888775239,3,Bulgarian,unk2,unk2,[],24
+1042,1984950565,3,Bulgarian,unk2,unk2,[],24
+1043,5780291,3,Slovene,bak,no,"[pol, ukr]",35
+1044,30423209,3,Slovene,unk,unk,[],35
+1045,43893209,3,Slovene,fin,yes,[ukr],34
+1046,49113209,3,Slovene,bak,no,[oth],35
+1047,81113209,3,Slovene,bak,no,[oth],32
+1048,87513309,3,Slovene,mag,no,[oth],35
+1049,88243209,3,Slovene,sch,no,[ukr],35
+1050,97322166,3,Slovene,sch,yes,[],34
+1051,149763309,3,Slovene,bak,no,[oth],35
+1052,232571716,3,Slovene,mag,yes,[],35
+1053,248353209,3,Slovene,mag,no,[ukr],35
+1054,272903309,3,Slovene,fin,no,[bel],35
+1055,282270324,3,Slovene,mag,no,[],35
+1056,311113309,3,Slovene,bak,no,[],35
+1057,313653309,3,Slovene,fin,yes,"[pol, srb, ukr]",34
+1058,323093309,3,Slovene,fin,no,[oth],35
+1059,345523309,3,Slovene,sch,no,"[ukr, bel]",33
+1060,374163209,3,Slovene,mag,no,[ukr],31
+1061,398593309,3,Slovene,fin,no,[ukr],35
+1062,426793309,3,Slovene,bak,no,[oth],22
+1063,465423209,3,Slovene,unk,no,[],31
+1064,485003209,3,Slovene,fin,no,[],21
+1065,505363209,3,Slovene,fin,no,[],35
+1066,562443309,3,Slovene,bak,no,[oth],34
+1067,597223209,3,Slovene,bak,yes,[oth],34
+1068,606563309,3,Slovene,unk,unk,[],21
+1069,654793209,3,Slovene,bak,yes,"[pol, ukr]",27
+1070,671853209,3,Slovene,bak,no,[],35
+1071,728543209,3,Slovene,fin,no,[bel],35
+1072,739493209,3,Slovene,fin,no,[],35
+1073,750773309,3,Slovene,fin,yes,[],35
+1074,768983309,3,Slovene,fin,no,[oth],35
+1075,863763209,3,Slovene,sch,no,[oth],34
+1076,864553209,3,Slovene,fin,no,"[pol, ukr, bel]",35
+1077,869963309,3,Slovene,fin,no,[oth],35
+1078,901713209,3,Slovene,fin,no,[],35
+1079,904573209,3,Slovene,bak,yes,[oth],35
+1080,933363309,3,Slovene,fin,no,[],35
+1081,5483003,4,No Parallel Text,fin,no,[],43
+1082,6646041,4,No Parallel Text,sch,no,[],27
+1083,8685703,4,No Parallel Text,fin,no,[oth],44
+1084,36445730,4,No Parallel Text,fin,no,[ukr],43
+1085,40936043,4,No Parallel Text,fin,no,[ukr],41
+1086,46696041,4,No Parallel Text,fin,no,[oth],43
+1087,70553003,4,No Parallel Text,fin,no,[],44
+1088,73259513,4,No Parallel Text,bak,yes,[],43
+1089,109975703,4,No Parallel Text,unk,unk,[],39
+1090,119556043,4,No Parallel Text,fin,unk,[oth],44
+1091,168023003,4,No Parallel Text,fin,yes,[],44
+1092,182336628,4,No Parallel Text,mag,yes,[],31
+1093,196755730,4,No Parallel Text,mag,no,"[ukr, bel]",44
+1094,206406043,4,No Parallel Text,bak,no,[ukr],44
+1095,222076043,4,No Parallel Text,fin,no,"[pol, ukr, bel]",44
+1096,265376041,4,No Parallel Text,fin,no,[oth],43
+1097,281156043,4,No Parallel Text,bak,no,[ukr],43
+1098,283293003,4,No Parallel Text,fin,no,"[ukr, bel]",41
+1099,285396043,4,No Parallel Text,fin,no,[oth],44
+1100,299426041,4,No Parallel Text,asp,no,[],37
+1101,305076041,4,No Parallel Text,fin,no,[],44
+1102,310676041,4,No Parallel Text,bak,yes,[],44
+1103,317336041,4,No Parallel Text,fin,no,[ukr],38
+1104,322296043,4,No Parallel Text,bak,no,[ukr],37
+1105,339453003,4,No Parallel Text,fin,no,[],44
+1106,348856043,4,No Parallel Text,bak,no,[],40
+1107,359646041,4,No Parallel Text,unk,unk,[],44
+1108,372836041,4,No Parallel Text,sch,no,[oth],44
+1109,396756043,4,No Parallel Text,bak,no,"[ukr, bel]",44
+1110,397026041,4,No Parallel Text,sch,no,[],37
+1111,401265703,4,No Parallel Text,bak,no,[],21
+1112,402856041,4,No Parallel Text,fin,no,[],44
+1113,418656041,4,No Parallel Text,fin,no,[oth],44
+1114,437136041,4,No Parallel Text,unk,unk,[],44
+1115,440855258,4,No Parallel Text,mag,yes,[oth],42
+1116,447933003,4,No Parallel Text,fin,no,[oth],44
+1117,448275730,4,No Parallel Text,mag,no,[ukr],44
+1118,454823096,4,No Parallel Text,bak,no,[],40
+1119,470475703,4,No Parallel Text,bak,no,[],44
+1120,479156043,4,No Parallel Text,mag,no,[],44
+1121,487913003,4,No Parallel Text,bak,no,[oth],44
+1122,496053003,4,No Parallel Text,bak,yes,[ukr],44
+1123,506553003,4,No Parallel Text,bak,no,"[ukr, bel]",44
+1124,556553003,4,No Parallel Text,fin,no,[],44
+1125,568206043,4,No Parallel Text,fin,no,[ukr],43
+1126,573636043,4,No Parallel Text,unk,unk,[oth],44
+1127,574396041,4,No Parallel Text,fin,yes,"[pol, ukr]",43
+1128,659136043,4,No Parallel Text,fin,no,[oth],44
+1129,698516043,4,No Parallel Text,fin,no,[oth],44
+1130,730916043,4,No Parallel Text,bak,yes,[ukr],43
+1131,735876041,4,No Parallel Text,fin,no,[oth],44
+1132,740383003,4,No Parallel Text,fin,no,[],43
+1133,741263003,4,No Parallel Text,fin,no,[],36
+1134,783326043,4,No Parallel Text,fin,no,[],44
+1135,802876043,4,No Parallel Text,fin,no,[],42
+1136,823266041,4,No Parallel Text,bak,no,[oth],44
+1137,842913003,4,No Parallel Text,fin,no,[],43
+1138,856026041,4,No Parallel Text,fin,yes,[oth],44
+1139,867704981,4,No Parallel Text,fin,no,[oth],39
+1140,904426043,4,No Parallel Text,sch,no,[oth],40
+1141,918236043,4,No Parallel Text,fin,no,[],44
+1142,919805730,4,No Parallel Text,bak,yes,[],44
+1143,943236150,4,No Parallel Text,bak,no,[oth],34
+1144,949543003,4,No Parallel Text,sch,no,[],44
+1145,978085703,4,No Parallel Text,fin,no,[],38
+1146,8865730,4,Polish,fin,no,[],42
+1147,14413003,4,Polish,fin,no,[oth],21
+1148,30236041,4,Polish,asp,no,[oth],44
+1149,31666041,4,Polish,fin,no,[],7
+1150,34586043,4,Polish,fin,yes,[],39
+1151,70930690,4,Polish,asp,no,[],37
+1152,95846041,4,Polish,fin,no,[oth],44
+1153,116066043,4,Polish,fin,no,[],35
+1154,127896043,4,Polish,fin,no,[oth],43
+1155,133297951,4,Polish,bak,yes,[ukr],36
+1156,144366041,4,Polish,fin,no,[],37
+1157,195256043,4,Polish,fin,no,[ukr],38
+1158,226076043,4,Polish,fin,no,[],43
+1159,235923003,4,Polish,sch,yes,[bel],44
+1160,249216041,4,Polish,unk,unk,[],19
+1161,269246041,4,Polish,mag,no,[oth],44
+1162,275566043,4,Polish,bak,no,[ukr],19
+1163,285806043,4,Polish,fin,no,[],44
+1164,307876043,4,Polish,fin,no,[oth],44
+1165,309856041,4,Polish,fin,no,[],42
+1166,310646041,4,Polish,sch,no,[ukr],28
+1167,311613003,4,Polish,sch,no,[ukr],44
+1168,318633003,4,Polish,mag,no,[],44
+1169,321566043,4,Polish,bak,no,[oth],43
+1170,333566043,4,Polish,fin,no,"[bel, oth]",42
+1171,335093003,4,Polish,bak,yes,"[srb, ukr, oth]",42
+1172,351605703,4,Polish,bak,no,[oth],44
+1173,358975703,4,Polish,bak,yes,[ukr],44
+1174,367215703,4,Polish,mag,no,"[ukr, bel]",44
+1175,403066041,4,Polish,unk,unk,[],44
+1176,441226043,4,Polish,mag,no,[],41
+1177,484703003,4,Polish,fin,no,[],38
+1178,495196041,4,Polish,mag,no,[ukr],44
+1179,510816043,4,Polish,fin,no,"[ukr, bel]",44
+1180,542946043,4,Polish,fin,no,[oth],36
+1181,543926043,4,Polish,unk,no,[bel],36
+1182,546466041,4,Polish,sch,no,[],32
+1183,568646041,4,Polish,fin,unk,[],41
+1184,573336043,4,Polish,fin,no,[oth],44
+1185,578837659,4,Polish,bak,yes,[bel],28
+1186,582803003,4,Polish,bak,no,[oth],40
+1187,609036043,4,Polish,bak,unk,[oth],9
+1188,622713003,4,Polish,bak,no,[],41
+1189,639756043,4,Polish,unk,unk,[],42
+1190,659786043,4,Polish,unk,unk,[],38
+1191,667786041,4,Polish,mag,no,[oth],42
+1192,680726043,4,Polish,fin,yes,"[ukr, oth]",44
+1193,686086043,4,Polish,fin,no,[oth],38
+1194,700886043,4,Polish,fin,no,[],43
+1195,702175703,4,Polish,mag,yes,"[ukr, bel]",44
+1196,703025703,4,Polish,fin,no,[ukr],43
+1197,705936026,4,Polish,bak,no,[oth],41
+1198,709706041,4,Polish,mag,no,[oth],44
+1199,713915730,4,Polish,bak,no,[],44
+1200,714736041,4,Polish,fin,no,[],39
+1201,716486043,4,Polish,bak,no,[ukr],32
+1202,716726041,4,Polish,mag,no,[],41
+1203,722996041,4,Polish,bak,no,"[ukr, bel, oth]",44
+1204,751485703,4,Polish,fin,no,[],44
+1205,753933003,4,Polish,sch,no,[],42
+1206,756986041,4,Polish,sch,no,[svk],19
+1207,777996041,4,Polish,fin,no,[],43
+1208,778804376,4,Polish,bak,no,[],33
+1209,801683003,4,Polish,fin,no,[],44
+1210,802725730,4,Polish,fin,no,[ukr],39
+1211,804496043,4,Polish,fin,no,[],44
+1212,805723003,4,Polish,fin,no,[oth],44
+1213,805885730,4,Polish,unk,unk,[],44
+1214,817136043,4,Polish,fin,no,[],43
+1215,819723003,4,Polish,bak,no,[],44
+1216,821785703,4,Polish,fin,no,[],44
+1217,827436043,4,Polish,bak,no,[oth],43
+1218,851156041,4,Polish,fin,no,[ukr],16
+1219,851596043,4,Polish,fin,no,[],28
+1220,943905293,4,Polish,bak,no,[],35
+1221,944816043,4,Polish,bak,no,[ukr],41
+1222,953396041,4,Polish,bak,no,"[srb, ukr]",44
+1223,962466043,4,Polish,bak,no,[],40
+1224,998746041,4,Polish,fin,no,[],44
+1225,17013409,4,Serbian,bak,no,[],41
+1226,26943409,4,Serbian,bak,no,[oth],43
+1227,48643409,4,Serbian,mag,no,[],44
+1228,50973409,4,Serbian,mag,no,[oth],44
+1229,118483409,4,Serbian,sch,no,[oth],36
+1230,124323409,4,Serbian,fin,no,[],44
+1231,134333409,4,Serbian,unk,unk,[],44
+1232,227433409,4,Serbian,fin,no,[],41
+1233,242023409,4,Serbian,mag,no,[oth],44
+1234,248893409,4,Serbian,fin,no,[],43
+1235,262783409,4,Serbian,fin,no,[oth],9
+1236,309143409,4,Serbian,bak,no,[oth],44
+1237,340133409,4,Serbian,sch,no,[],29
+1238,388853409,4,Serbian,bak,no,[oth],40
+1239,416543409,4,Serbian,sch,unk,[],35
+1240,443033409,4,Serbian,mag,no,[],39
+1241,501683409,4,Serbian,fin,no,[],44
+1242,580553409,4,Serbian,sch,no,[bel],44
+1243,594823409,4,Serbian,fin,no,[],42
+1244,625253409,4,Serbian,bak,no,[oth],44
+1245,679573409,4,Serbian,bak,no,[],28
+1246,687563409,4,Serbian,bak,no,[oth],17
+1247,786593409,4,Serbian,fin,yes,[oth],31
+1248,792453409,4,Serbian,mag,no,"[czk, ukr]",44
+1249,808433409,4,Serbian,sch,no,"[ukr, oth]",37
+1250,812743409,4,Serbian,mag,no,[oth],41
+1251,824233409,4,Serbian,unk,unk,[],44
+1252,838943409,4,Serbian,mag,no,[oth],39
+1253,853173409,4,Serbian,fin,no,[],43
+1254,880763409,4,Serbian,fin,no,[ukr],44
+1255,899903409,4,Serbian,fin,no,[],37
+1256,924663409,4,Serbian,fin,unk,[],44
+1257,950263409,4,Serbian,fin,no,[ukr],44
+1258,983253409,4,Serbian,mag,yes,[],44
+1259,12225703,4,Czech,fin,no,[],33
+1260,108796041,4,Czech,fin,no,[],44
+1261,117015703,4,Czech,bak,no,[oth],42
+1262,156885703,4,Czech,fin,no,[oth],43
+1263,200935730,4,Czech,fin,no,[oth],39
+1264,206305703,4,Czech,fin,yes,[],43
+1265,208015703,4,Czech,bak,no,"[ukr, bel]",44
+1266,218225703,4,Czech,fin,no,[oth],44
+1267,242085703,4,Czech,sch,no,"[ukr, bel]",44
+1268,242656041,4,Czech,sch,no,[oth],44
+1269,347516041,4,Czech,fin,no,[oth],8
+1270,359655703,4,Czech,mag,no,[],24
+1271,373605703,4,Czech,sch,no,[oth],44
+1272,420905703,4,Czech,fin,yes,[oth],44
+1273,432155703,4,Czech,fin,no,[oth],29
+1274,432376041,4,Czech,sch,no,[],43
+1275,448185703,4,Czech,fin,yes,[oth],43
+1276,451355703,4,Czech,fin,no,[oth],40
+1277,469036041,4,Czech,fin,no,[],31
+1278,469716041,4,Czech,fin,no,[],43
+1279,575965730,4,Czech,bak,no,[],41
+1280,578216041,4,Czech,sch,yes,[oth],33
+1281,591365730,4,Czech,sch,no,[oth],40
+1282,596683003,4,Czech,fin,no,[ukr],42
+1283,653125703,4,Czech,mag,no,[oth],43
+1284,659295703,4,Czech,mag,no,[oth],43
+1285,661813003,4,Czech,fin,no,[],38
+1286,662936041,4,Czech,fin,no,[oth],27
+1287,693236041,4,Czech,fin,no,[],37
+1288,711245703,4,Czech,fin,no,[ukr],44
+1289,712275703,4,Czech,fin,no,[oth],44
+1290,736626041,4,Czech,bak,no,[bel],44
+1291,749125703,4,Czech,fin,no,[],44
+1292,755845703,4,Czech,bak,no,[oth],44
+1293,765955703,4,Czech,bak,no,[oth],44
+1294,798736041,4,Czech,fin,no,[oth],28
+1295,805385703,4,Czech,bak,no,[ukr],44
+1296,871275730,4,Czech,fin,no,[oth],42
+1297,880446041,4,Czech,bak,no,[],44
+1298,906366041,4,Czech,unk,unk,[],44
+1299,918046041,4,Czech,sch,no,[oth],40
+1300,919316041,4,Czech,fin,no,[],44
+1301,928485703,4,Czech,sch,no,"[ukr, bel, oth]",44
+1302,932685730,4,Czech,fin,no,[],40
+1303,949965703,4,Czech,fin,no,[ukr],43
+1304,3336041,4,Ukranian,unk,unk,[],35
+1305,29385730,4,Ukranian,mag,yes,[oth],35
+1306,54683003,4,Ukranian,fin,no,[],11
+1307,55756041,4,Ukranian,sch,no,[oth],44
+1308,73643003,4,Ukranian,fin,unk,[oth],42
+1309,81970174,4,Ukranian,bak,no,[oth],41
+1310,100766043,4,Ukranian,unk,unk,[],42
+1311,116086043,4,Ukranian,bak,no,[],36
+1312,122195730,4,Ukranian,fin,no,[oth],43
+1313,148965459,4,Ukranian,bak,no,[],34
+1314,169736041,4,Ukranian,sch,no,[oth],15
+1315,174265703,4,Ukranian,fin,no,[oth],41
+1316,207686041,4,Ukranian,fin,yes,[oth],29
+1317,219053003,4,Ukranian,fin,no,[oth],44
+1318,253145703,4,Ukranian,bak,no,[oth],44
+1319,260893003,4,Ukranian,mag,no,[],44
+1320,273086043,4,Ukranian,mag,no,[],44
+1321,288236043,4,Ukranian,fin,yes,[oth],43
+1322,298635730,4,Ukranian,fin,no,[],44
+1323,312845730,4,Ukranian,fin,no,[oth],41
+1324,313466043,4,Ukranian,fin,no,[],39
+1325,322046041,4,Ukranian,unk,no,[],44
+1326,333776041,4,Ukranian,fin,no,[],32
+1327,355186041,4,Ukranian,sch,no,[],43
+1328,373593003,4,Ukranian,fin,yes,[oth],42
+1329,422007005,4,Ukranian,fin,yes,[pol],43
+1330,440903003,4,Ukranian,mag,no,[],32
+1331,461003003,4,Ukranian,bak,no,[],44
+1332,464706043,4,Ukranian,bak,no,[],43
+1333,477226043,4,Ukranian,fin,no,[],39
+1334,484386043,4,Ukranian,fin,no,[],44
+1335,485636041,4,Ukranian,fin,no,[oth],44
+1336,499396041,4,Ukranian,sch,yes,[],15
+1337,500813003,4,Ukranian,sch,no,[oth],26
+1338,548305703,4,Ukranian,unk,no,[],37
+1339,555105730,4,Ukranian,fin,no,[],44
+1340,578676043,4,Ukranian,sch,no,[oth],8
+1341,595906041,4,Ukranian,unk,unk,[],44
+1342,615186043,4,Ukranian,fin,no,[bel],44
+1343,643005730,4,Ukranian,bak,no,[],33
+1344,645850591,4,Ukranian,mag,yes,[],44
+1345,662585703,4,Ukranian,fin,no,[],31
+1346,675813003,4,Ukranian,bak,no,[],44
+1347,743453003,4,Ukranian,fin,no,[oth],44
+1348,758103003,4,Ukranian,bak,yes,[oth],30
+1349,762416043,4,Ukranian,bak,no,[oth],44
+1350,767466043,4,Ukranian,fin,no,[oth],43
+1351,772373003,4,Ukranian,fin,no,[],27
+1352,815086043,4,Ukranian,bak,yes,[],43
+1353,852113003,4,Ukranian,fin,no,[],43
+1354,859586043,4,Ukranian,bak,no,[oth],44
+1355,869913003,4,Ukranian,fin,no,[],44
+1356,916916041,4,Ukranian,asp,yes,[oth],43
+1357,946789580,4,Ukranian,mag,no,[],35
+1358,977666043,4,Ukranian,bak,no,[bel],29
+1359,978040584,4,Ukranian,mag,no,[oth],44
+1360,983216041,4,Ukranian,mag,no,[oth],44
+1361,24536043,4,Belarussian,sch,no,[oth],44
+1362,26453003,4,Belarussian,fin,no,[],13
+1363,43905730,4,Belarussian,mag,no,[ukr],44
+1364,48246043,4,Belarussian,unk,unk,[],44
+1365,49596041,4,Belarussian,fin,no,[],43
+1366,50626041,4,Belarussian,fin,no,[oth],44
+1367,51986041,4,Belarussian,unk,unk,[],41
+1368,73636043,4,Belarussian,bak,no,[oth],26
+1369,81276043,4,Belarussian,fin,yes,[],44
+1370,87826041,4,Belarussian,fin,no,[ukr],43
+1371,112303003,4,Belarussian,fin,no,[oth],44
+1372,115256041,4,Belarussian,bak,yes,"[pol, ukr]",38
+1373,146525703,4,Belarussian,fin,no,[ukr],44
+1374,152196041,4,Belarussian,bak,no,[ukr],43
+1375,153966043,4,Belarussian,fin,unk,[],44
+1376,173326041,4,Belarussian,unk,unk,[],42
+1377,194926041,4,Belarussian,bak,no,[],42
+1378,213026707,4,Belarussian,bak,no,[oth],40
+1379,237276043,4,Belarussian,fin,no,[],44
+1380,241263003,4,Belarussian,fin,no,[oth],38
+1381,256786041,4,Belarussian,sch,no,"[ukr, oth]",19
+1382,269486043,4,Belarussian,sch,no,[oth],18
+1383,278156041,4,Belarussian,sch,yes,[],38
+1384,282806041,4,Belarussian,sch,no,[],43
+1385,285316043,4,Belarussian,fin,no,[oth],44
+1386,301255703,4,Belarussian,mag,no,[ukr],44
+1387,306476041,4,Belarussian,mag,no,[oth],42
+1388,324016043,4,Belarussian,fin,no,[],36
+1389,343866041,4,Belarussian,bak,no,[oth],44
+1390,351635703,4,Belarussian,unk,unk,[],42
+1391,357335616,4,Belarussian,sch,no,[],31
+1392,383926041,4,Belarussian,fin,no,[],43
+1393,423056041,4,Belarussian,fin,no,[],44
+1394,457606041,4,Belarussian,mag,no,[oth],44
+1395,489596041,4,Belarussian,mag,yes,[pol],44
+1396,503553003,4,Belarussian,bak,no,[ukr],44
+1397,503736041,4,Belarussian,sch,no,[oth],44
+1398,511173003,4,Belarussian,sch,no,[oth],44
+1399,522413003,4,Belarussian,mag,yes,[oth],44
+1400,561296041,4,Belarussian,bak,no,[ukr],44
+1401,574096041,4,Belarussian,fin,no,[],43
+1402,579046041,4,Belarussian,fin,no,[oth],44
+1403,580626043,4,Belarussian,mag,no,[ukr],44
+1404,592566043,4,Belarussian,fin,no,[oth],32
+1405,605086043,4,Belarussian,mag,yes,[],29
+1406,607626043,4,Belarussian,fin,no,[oth],42
+1407,617215703,4,Belarussian,unk,unk,[oth],41
+1408,620496043,4,Belarussian,fin,no,[],44
+1409,621726043,4,Belarussian,bak,no,[ukr],44
+1410,622553448,4,Belarussian,fin,yes,[czk],44
+1411,630515703,4,Belarussian,fin,no,[oth],32
+1412,695799137,4,Belarussian,mag,no,[],44
+1413,700260407,4,Belarussian,bak,yes,[oth],41
+1414,714773003,4,Belarussian,fin,no,[oth],44
+1415,721585730,4,Belarussian,sch,no,[ukr],44
+1416,731746041,4,Belarussian,bak,no,[ukr],44
+1417,740545703,4,Belarussian,fin,no,[],42
+1418,744826041,4,Belarussian,mag,no,[],30
+1419,767245730,4,Belarussian,mag,no,[oth],44
+1420,768395703,4,Belarussian,fin,yes,[],44
+1421,777485703,4,Belarussian,fin,no,[oth],41
+1422,784906041,4,Belarussian,fin,no,[],44
+1423,786463003,4,Belarussian,unk,unk,[],44
+1424,797993003,4,Belarussian,fin,no,[oth],44
+1425,800616043,4,Belarussian,unk,unk,[],42
+1426,811766043,4,Belarussian,sch,no,[],42
+1427,828783003,4,Belarussian,bak,no,[],42
+1428,848976041,4,Belarussian,fin,no,[oth],43
+1429,849976041,4,Belarussian,unk,no,[],19
+1430,850746041,4,Belarussian,unk,unk,[],20
+1431,871916043,4,Belarussian,fin,no,[ukr],37
+1432,877466041,4,Belarussian,bak,no,[pol],39
+1433,877738999,4,Belarussian,unk,unk,[],13
+1434,880296043,4,Belarussian,bak,no,[],37
+1435,887746043,4,Belarussian,fin,no,[oth],41
+1436,899776043,4,Belarussian,mag,no,[],44
+1437,906236041,4,Belarussian,fin,no,[oth],44
+1438,940486041,4,Belarussian,fin,no,[],40
+1439,953866043,4,Belarussian,fin,no,[],43
+1440,962715730,4,Belarussian,unk,no,[oth],14
+1441,985326041,4,Belarussian,fin,no,[ukr],29
+1442,989111703,4,Belarussian,mag,no,[],37
+1443,3553209,4,Slovak,bak,no,[oth],43
+1444,35423209,4,Slovak,bak,no,[oth],44
+1445,67193309,4,Slovak,fin,no,[],43
+1446,143953309,4,Slovak,mag,no,[oth],44
+1447,170603309,4,Slovak,fin,no,[oth],38
+1448,171043309,4,Slovak,bak,yes,[ukr],44
+1449,179053309,4,Slovak,bak,no,[ukr],42
+1450,206933309,4,Slovak,bak,no,[],26
+1451,219393309,4,Slovak,fin,no,[],39
+1452,236753309,4,Slovak,fin,no,[],39
+1453,332763209,4,Slovak,fin,no,"[ukr, bel]",44
+1454,376643209,4,Slovak,unk,unk,[],44
+1455,438383309,4,Slovak,fin,no,[],37
+1456,455083209,4,Slovak,fin,no,[oth],34
+1457,462213309,4,Slovak,fin,no,[oth],42
+1458,477863209,4,Slovak,bak,no,[ukr],30
+1459,524373309,4,Slovak,bak,no,[oth],12
+1460,555963209,4,Slovak,unk,unk,[],44
+1461,580403309,4,Slovak,sch,no,[oth],44
+1462,599613309,4,Slovak,bak,no,[bel],44
+1463,603223309,4,Slovak,bak,yes,"[ukr, oth]",43
+1464,627073209,4,Slovak,unk,unk,[],39
+1465,653023209,4,Slovak,bak,no,[oth],44
+1466,669793209,4,Slovak,mag,no,[oth],44
+1467,672743209,4,Slovak,bak,no,"[ukr, bel]",44
+1468,680143309,4,Slovak,unk,unk,[],40
+1469,695353209,4,Slovak,fin,no,[ukr],44
+1470,704983309,4,Slovak,bak,no,[oth],27
+1471,730063209,4,Slovak,sch,no,[oth],44
+1472,753163309,4,Slovak,fin,no,[],43
+1473,756233309,4,Slovak,unk,unk,[],10
+1474,760673209,4,Slovak,fin,no,[],44
+1475,769743209,4,Slovak,fin,no,[oth],39
+1476,905483209,4,Slovak,fin,no,[],44
+1477,920213209,4,Slovak,sch,no,[oth],26
+1478,923693209,4,Slovak,fin,no,[],13
+1479,17715730,4,Bulgarian,sch,yes,[oth],42
+1480,28975703,4,Bulgarian,fin,no,[oth],44
+1481,46246041,4,Bulgarian,sch,no,[oth],43
+1482,67225703,4,Bulgarian,fin,no,[],43
+1483,70115703,4,Bulgarian,bak,no,[ukr],44
+1484,103905730,4,Bulgarian,fin,no,[oth],43
+1485,104105703,4,Bulgarian,mag,no,[oth],44
+1486,212625703,4,Bulgarian,sch,no,[],40
+1487,218055703,4,Bulgarian,sch,no,[],40
+1488,218345703,4,Bulgarian,sch,no,[oth],43
+1489,261315703,4,Bulgarian,fin,no,[],41
+1490,279075730,4,Bulgarian,fin,no,[],38
+1491,305365703,4,Bulgarian,fin,yes,[],35
+1492,312685703,4,Bulgarian,bak,no,[oth],44
+1493,335815703,4,Bulgarian,sch,no,[oth],40
+1494,371786041,4,Bulgarian,bak,no,[czk],13
+1495,498325703,4,Bulgarian,unk,unk,[],43
+1496,508443309,4,Bulgarian,fin,yes,[oth],44
+1497,509925703,4,Bulgarian,bak,no,[oth],42
+1498,515715703,4,Bulgarian,fin,no,[],44
+1499,522655703,4,Bulgarian,fin,no,[],33
+1500,545366041,4,Bulgarian,unk,unk,[],43
+1501,571396041,4,Bulgarian,bak,no,[],38
+1502,578495703,4,Bulgarian,mag,no,[],43
+1503,591185703,4,Bulgarian,bak,no,[],42
+1504,621665703,4,Bulgarian,fin,no,[oth],11
+1505,692605703,4,Bulgarian,fin,no,[oth],37
+1506,890385703,4,Bulgarian,bak,no,[oth],44
+1507,895815703,4,Bulgarian,bak,no,[oth],44
+1508,940605703,4,Bulgarian,bak,yes,"[ukr, bel, oth]",44
+1509,947455703,4,Bulgarian,fin,no,[oth],43
+1510,951783003,4,Bulgarian,fin,no,[],44
+1511,971863003,4,Bulgarian,fin,no,[oth],22
+1512,972385730,4,Bulgarian,mag,no,[],43
+1513,979175703,4,Bulgarian,sch,no,[oth],44
+1514,990353309,4,Bulgarian,fin,no,[oth],21
+1515,991976041,4,Bulgarian,fin,no,[],44
+1516,3833209,4,Slovene,sch,no,[oth],21
+1517,23923209,4,Slovene,bak,no,"[ukr, bel, oth]",37
+1518,33263209,4,Slovene,fin,no,[],39
+1519,88133209,4,Slovene,mag,no,[],43
+1520,132163209,4,Slovene,sch,no,[ukr],43
+1521,158923309,4,Slovene,bak,no,[],44
+1522,176803309,4,Slovene,unk,no,[],44
+1523,180713309,4,Slovene,unk,unk,[],44
+1524,200443209,4,Slovene,fin,no,[oth],44
+1525,237253209,4,Slovene,bak,no,[],43
+1526,255283309,4,Slovene,bak,no,[],44
+1527,262966376,4,Slovene,mag,no,[],44
+1528,278593209,4,Slovene,unk,unk,[],44
+1529,292643309,4,Slovene,fin,no,[ukr],42
+1530,450213209,4,Slovene,sch,no,[oth],42
+1531,455973409,4,Slovene,asp,no,"[pol, czk, ukr, bel, svk, oth]",44
+1532,490709560,4,Slovene,bak,yes,[],41
+1533,493693209,4,Slovene,fin,no,[],44
+1534,532033309,4,Slovene,bak,no,[],44
+1535,552733209,4,Slovene,fin,no,[ukr],43
+1536,570613209,4,Slovene,fin,no,[oth],43
+1537,577243409,4,Slovene,fin,no,[oth],32
+1538,586074101,4,Slovene,bak,yes,"[ukr, bel]",44
+1539,685073209,4,Slovene,mag,unk,[],25
+1540,699543209,4,Slovene,sch,no,[],42
+1541,702033309,4,Slovene,bak,no,[oth],43
+1542,746283309,4,Slovene,fin,no,[oth],43
+1543,791623209,4,Slovene,bak,no,[],36
+1544,813113309,4,Slovene,mag,no,[oth],20
+1545,824963309,4,Slovene,fin,no,[],41
+1546,839633209,4,Slovene,fin,no,[],44
+1547,867613209,4,Slovene,unk,no,[],9
+1548,882453309,4,Slovene,unk,unk,[],44
+1549,911243309,4,Slovene,bak,no,[oth],30
+1550,919143309,4,Slovene,mag,yes,[],44
+1551,945735677,4,Slovene,bak,yes,[],31
+1552,966433209,4,Slovene,bak,no,[oth],44
+1553,19035730,5,No Parallel Text,fin,no,[oth],37
+1554,40075703,5,No Parallel Text,fin,no,[oth],37
+1555,51453003,5,No Parallel Text,fin,no,[bel],34
+1556,93320047,5,No Parallel Text,bak,no,[],36
+1557,135423003,5,No Parallel Text,mag,no,[oth],37
+1558,160536041,5,No Parallel Text,mag,no,[ukr],37
+1559,168716041,5,No Parallel Text,sch,no,[oth],37
+1560,201455703,5,No Parallel Text,fin,no,[bel],36
+1561,206066041,5,No Parallel Text,asp,no,[oth],32
+1562,218475703,5,No Parallel Text,fin,no,[oth],37
+1563,234176041,5,No Parallel Text,bak,no,[],37
+1564,236343003,5,No Parallel Text,fin,no,[ukr],34
+1565,281535703,5,No Parallel Text,bak,no,[oth],37
+1566,328996041,5,No Parallel Text,fin,no,[ukr],37
+1567,347743003,5,No Parallel Text,bak,unk,[],37
+1568,355213003,5,No Parallel Text,mag,no,[oth],37
+1569,363856041,5,No Parallel Text,fin,no,[ukr],37
+1570,379556079,5,No Parallel Text,bak,no,[oth],36
+1571,423656041,5,No Parallel Text,fin,no,[oth],31
+1572,429455178,5,No Parallel Text,sch,no,[],28
+1573,434749668,5,No Parallel Text,bak,no,[],21
+1574,438096041,5,No Parallel Text,fin,no,[],35
+1575,453346041,5,No Parallel Text,fin,no,[oth],37
+1576,483155703,5,No Parallel Text,sch,yes,[oth],37
+1577,548263003,5,No Parallel Text,fin,no,[],37
+1578,565036041,5,No Parallel Text,fin,no,[bel],27
+1579,621198358,5,No Parallel Text,bak,yes,[oth],34
+1580,623745703,5,No Parallel Text,bak,no,[],33
+1581,633743003,5,No Parallel Text,fin,no,[oth],37
+1582,633903003,5,No Parallel Text,fin,no,[oth],36
+1583,648433003,5,No Parallel Text,fin,no,[oth],35
+1584,662616041,5,No Parallel Text,fin,no,[oth],37
+1585,674975730,5,No Parallel Text,fin,yes,[],35
+1586,703875703,5,No Parallel Text,bak,no,[oth],32
+1587,785606041,5,No Parallel Text,fin,yes,[oth],37
+1588,810015703,5,No Parallel Text,mag,yes,[pol],37
+1589,817766041,5,No Parallel Text,sch,no,[bel],37
+1590,848073003,5,No Parallel Text,bak,no,[oth],36
+1591,883156041,5,No Parallel Text,mag,no,[ukr],37
+1592,891925703,5,No Parallel Text,bak,no,[],23
+1593,898586041,5,No Parallel Text,fin,no,[],36
+1594,902315730,5,No Parallel Text,mag,yes,[oth],37
+1595,902795730,5,No Parallel Text,sch,no,[oth],9
+1596,942433003,5,No Parallel Text,fin,no,"[ukr, bel]",37
+1597,952166041,5,No Parallel Text,fin,no,[oth],36
+1598,978426041,5,No Parallel Text,fin,no,[],37
+1599,998591991,5,No Parallel Text,bak,no,[],37
+1600,22166041,5,Polish,fin,no,[],37
+1601,29967094,5,Polish,bak,yes,[],36
+1602,82786041,5,Polish,bak,yes,[ukr],37
+1603,91585703,5,Polish,bak,no,[ukr],35
+1604,95265730,5,Polish,fin,no,[oth],36
+1605,100305703,5,Polish,fin,yes,[oth],36
+1606,114665703,5,Polish,fin,no,[oth],37
+1607,125316041,5,Polish,sch,no,[],16
+1608,170476041,5,Polish,mag,yes,[ukr],37
+1609,183475703,5,Polish,fin,no,[],30
+1610,209425703,5,Polish,unk,unk,[],37
+1611,220963003,5,Polish,bak,no,[oth],37
+1612,221813003,5,Polish,bak,no,[ukr],32
+1613,248066041,5,Polish,asp,no,[ukr],36
+1614,263295703,5,Polish,bak,unk,[],37
+1615,275661979,5,Polish,fin,yes,[],10
+1616,278920259,5,Polish,bak,no,[],36
+1617,289158814,5,Polish,bak,no,[],36
+1618,291216041,5,Polish,fin,no,"[bel, oth]",17
+1619,296166041,5,Polish,fin,no,[oth],36
+1620,304113003,5,Polish,mag,no,[ukr],36
+1621,305846041,5,Polish,fin,no,[],21
+1622,342723003,5,Polish,bak,no,[oth],37
+1623,368446041,5,Polish,fin,no,[oth],37
+1624,374708718,5,Polish,bak,no,[],35
+1625,390643003,5,Polish,sch,yes,"[ukr, bel]",36
+1626,404733003,5,Polish,mag,no,[oth],33
+1627,440175703,5,Polish,unk,unk,[],35
+1628,468006041,5,Polish,sch,no,[oth],26
+1629,503263003,5,Polish,fin,no,[oth],28
+1630,571036041,5,Polish,bak,yes,[oth],34
+1631,639276041,5,Polish,bak,no,[oth],36
+1632,641535730,5,Polish,bak,no,[oth],37
+1633,694086041,5,Polish,fin,no,[],36
+1634,724106041,5,Polish,sch,no,[oth],32
+1635,724836041,5,Polish,fin,no,[ukr],36
+1636,737006041,5,Polish,fin,no,[oth],36
+1637,742213003,5,Polish,bak,no,[oth],37
+1638,773206041,5,Polish,unk,unk,[],35
+1639,836796041,5,Polish,fin,no,[ukr],37
+1640,839636041,5,Polish,bak,no,[ukr],12
+1641,839993003,5,Polish,bak,no,[oth],37
+1642,848066041,5,Polish,bak,yes,[oth],36
+1643,851696041,5,Polish,fin,unk,[oth],37
+1644,866458281,5,Polish,bak,no,[],17
+1645,872243003,5,Polish,mag,unk,[],36
+1646,881856041,5,Polish,bak,no,"[ukr, bel]",32
+1647,884995703,5,Polish,unk,no,[],15
+1648,891556041,5,Polish,fin,no,[ukr],37
+1649,909476041,5,Polish,sch,no,[oth],33
+1650,916406041,5,Polish,sch,no,[oth],31
+1651,917156041,5,Polish,bak,no,[],37
+1652,933333003,5,Polish,bak,yes,[oth],35
+1653,960885730,5,Polish,fin,no,[oth],33
+1654,962146041,5,Polish,bak,no,[oth],15
+1655,962366041,5,Polish,fin,no,[oth],36
+1656,978215730,5,Polish,fin,no,[ukr],37
+1657,14453409,5,Serbian,mag,yes,[],37
+1658,56313409,5,Serbian,bak,no,[],37
+1659,82003409,5,Serbian,mag,yes,[],25
+1660,96263409,5,Serbian,mag,no,[oth],37
+1661,97423409,5,Serbian,fin,no,[oth],37
+1662,167603409,5,Serbian,unk,unk,[],37
+1663,189383409,5,Serbian,bak,no,[ukr],34
+1664,199413409,5,Serbian,bak,no,[],36
+1665,240943409,5,Serbian,fin,no,[oth],29
+1666,329403409,5,Serbian,fin,no,[],36
+1667,336353409,5,Serbian,mag,no,[],37
+1668,337693409,5,Serbian,fin,yes,[],36
+1669,360623409,5,Serbian,fin,no,[],12
+1670,365863409,5,Serbian,fin,no,[oth],35
+1671,436003409,5,Serbian,fin,yes,[],33
+1672,458333409,5,Serbian,fin,no,"[ukr, bel]",37
+1673,614173409,5,Serbian,sch,no,[bel],37
+1674,652423409,5,Serbian,mag,no,[ukr],37
+1675,672043409,5,Serbian,fin,no,[oth],37
+1676,685503409,5,Serbian,fin,no,[ukr],37
+1677,718593409,5,Serbian,fin,no,[oth],37
+1678,736043409,5,Serbian,fin,no,[oth],37
+1679,741813409,5,Serbian,fin,no,[ukr],26
+1680,744873409,5,Serbian,sch,no,[oth],37
+1681,770863409,5,Serbian,fin,no,[],35
+1682,814323409,5,Serbian,fin,no,[oth],28
+1683,822683409,5,Serbian,fin,no,"[ukr, bel, oth]",37
+1684,854473409,5,Serbian,fin,no,[],37
+1685,860233409,5,Serbian,mag,yes,[ukr],23
+1686,919153409,5,Serbian,fin,no,[oth],33
+1687,922363409,5,Serbian,bak,no,[oth],31
+1688,956593409,5,Serbian,fin,no,[],35
+1689,956723409,5,Serbian,bak,no,[oth],37
+1690,966753409,5,Serbian,fin,no,[],37
+1691,974673409,5,Serbian,bak,yes,[],30
+1692,982193409,5,Serbian,fin,no,[ukr],36
+1693,7843003,5,Czech,fin,no,[],37
+1694,21626041,5,Czech,fin,no,[oth],15
+1695,33035703,5,Czech,sch,no,"[ukr, bel]",37
+1696,68125703,5,Czech,sch,no,[],36
+1697,110056041,5,Czech,fin,yes,[oth],37
+1698,113535703,5,Czech,fin,no,[oth],37
+1699,145845703,5,Czech,fin,no,[oth],35
+1700,154893409,5,Czech,fin,no,[oth],34
+1701,185595703,5,Czech,bak,no,[],37
+1702,190495703,5,Czech,unk,unk,[],34
+1703,198165703,5,Czech,mag,no,[],37
+1704,228066041,5,Czech,fin,no,[oth],35
+1705,328195703,5,Czech,fin,no,[oth],36
+1706,341225703,5,Czech,bak,no,[],37
+1707,422965703,5,Czech,sch,no,[oth],33
+1708,452175703,5,Czech,bak,no,[oth],37
+1709,472825703,5,Czech,bak,no,[ukr],37
+1710,489616041,5,Czech,fin,no,[],36
+1711,529816041,5,Czech,bak,yes,[oth],37
+1712,585995703,5,Czech,fin,no,[ukr],36
+1713,593915703,5,Czech,fin,no,[ukr],36
+1714,619885703,5,Czech,fin,no,[],35
+1715,689495730,5,Czech,fin,no,[ukr],36
+1716,746475703,5,Czech,fin,no,[oth],32
+1717,750795703,5,Czech,mag,unk,[],36
+1718,791625730,5,Czech,fin,no,[oth],37
+1719,809495730,5,Czech,sch,no,[oth],28
+1720,821965703,5,Czech,fin,no,[],37
+1721,822595703,5,Czech,unk,unk,[],34
+1722,864765703,5,Czech,sch,no,[oth],34
+1723,870425703,5,Czech,sch,no,[ukr],37
+1724,880815703,5,Czech,bak,no,[ukr],37
+1725,890575703,5,Czech,fin,no,[],30
+1726,902435703,5,Czech,sch,no,[ukr],37
+1727,914575703,5,Czech,fin,no,[],37
+1728,972075730,5,Czech,fin,no,[oth],37
+1729,994385730,5,Czech,bak,no,[],37
+1730,84676041,5,Ukranian,fin,yes,[oth],37
+1731,149195703,5,Ukranian,sch,no,[],37
+1732,160053003,5,Ukranian,fin,no,[],36
+1733,270845703,5,Ukranian,fin,no,[oth],37
+1734,294523003,5,Ukranian,bak,no,[],36
+1735,305613003,5,Ukranian,bak,no,[oth],37
+1736,308706041,5,Ukranian,fin,no,[],34
+1737,343435703,5,Ukranian,bak,no,[oth],36
+1738,364993003,5,Ukranian,fin,yes,[oth],37
+1739,371403003,5,Ukranian,unk,unk,[],36
+1740,402723003,5,Ukranian,bak,no,[],35
+1741,440438414,5,Ukranian,bak,no,[],34
+1742,484493003,5,Ukranian,fin,no,[oth],37
+1743,496981740,5,Ukranian,bak,yes,[pol],36
+1744,551965052,5,Ukranian,bak,yes,[],36
+1745,560333003,5,Ukranian,bak,no,[],37
+1746,561174360,5,Ukranian,mag,no,[],32
+1747,569043348,5,Ukranian,bak,no,[],37
+1748,584953003,5,Ukranian,bak,no,[oth],30
+1749,585147925,5,Ukranian,sch,yes,[],37
+1750,589430679,5,Ukranian,bak,yes,[],37
+1751,605463003,5,Ukranian,fin,no,[oth],36
+1752,631755703,5,Ukranian,fin,no,[],34
+1753,631845703,5,Ukranian,fin,no,[oth],36
+1754,635636041,5,Ukranian,fin,no,[oth],37
+1755,646535730,5,Ukranian,fin,no,[],37
+1756,730315703,5,Ukranian,fin,no,[oth],36
+1757,763963309,5,Ukranian,unk,unk,[],37
+1758,769485703,5,Ukranian,bak,no,[oth],37
+1759,789505703,5,Ukranian,unk,unk,[],36
+1760,806316041,5,Ukranian,unk,unk,[],37
+1761,814416041,5,Ukranian,bak,no,[],36
+1762,839443003,5,Ukranian,fin,no,[],35
+1763,845185703,5,Ukranian,bak,no,[oth],33
+1764,850936041,5,Ukranian,mag,yes,[],37
+1765,899535703,5,Ukranian,fin,no,[],37
+1766,929410211,5,Ukranian,fin,no,[],36
+1767,9136041,5,Belarussian,fin,no,[],37
+1768,14393003,5,Belarussian,fin,no,[ukr],37
+1769,31220076,5,Belarussian,mag,yes,[],36
+1770,47923003,5,Belarussian,mag,no,[],36
+1771,47946041,5,Belarussian,fin,no,[],35
+1772,57176041,5,Belarussian,bak,no,[oth],37
+1773,80395703,5,Belarussian,fin,no,[oth],37
+1774,100096041,5,Belarussian,bak,no,[oth],31
+1775,136666041,5,Belarussian,mag,no,[oth],36
+1776,145246041,5,Belarussian,sch,no,[ukr],30
+1777,209680500,5,Belarussian,fin,no,[oth],37
+1778,211853003,5,Belarussian,unk,unk,[],24
+1779,212743003,5,Belarussian,fin,no,[],33
+1780,244163003,5,Belarussian,fin,no,[],36
+1781,265246041,5,Belarussian,bak,no,[],25
+1782,276775730,5,Belarussian,fin,yes,[ukr],25
+1783,328017467,5,Belarussian,bak,yes,[],35
+1784,380145703,5,Belarussian,asp,no,[ukr],37
+1785,396685703,5,Belarussian,unk,unk,[],24
+1786,396915730,5,Belarussian,fin,no,[ukr],28
+1787,400955703,5,Belarussian,fin,no,[oth],31
+1788,402335703,5,Belarussian,unk,unk,[],37
+1789,417180193,5,Belarussian,bak,no,[ukr],37
+1790,474055703,5,Belarussian,fin,no,[oth],37
+1791,483536041,5,Belarussian,bak,yes,[oth],35
+1792,486905703,5,Belarussian,fin,no,[pol],30
+1793,527743003,5,Belarussian,sch,no,[oth],37
+1794,542256041,5,Belarussian,fin,unk,[],37
+1795,546236041,5,Belarussian,fin,no,[ukr],36
+1796,548933003,5,Belarussian,bak,no,[ukr],33
+1797,554920026,5,Belarussian,sch,no,[],29
+1798,572306041,5,Belarussian,mag,no,[ukr],37
+1799,575346041,5,Belarussian,fin,no,[],33
+1800,619446041,5,Belarussian,bak,no,[oth],37
+1801,640236041,5,Belarussian,fin,no,[oth],37
+1802,651275703,5,Belarussian,bak,no,[],31
+1803,726653003,5,Belarussian,bak,yes,[ukr],34
+1804,735966041,5,Belarussian,sch,no,[],36
+1805,739826041,5,Belarussian,fin,no,"[ukr, oth]",36
+1806,750936041,5,Belarussian,bak,no,[oth],28
+1807,845765730,5,Belarussian,bak,no,"[ukr, oth]",36
+1808,900593003,5,Belarussian,fin,no,[oth],36
+1809,916600550,5,Belarussian,bak,no,"[ukr, oth]",32
+1810,927686041,5,Belarussian,fin,no,[oth],14
+1811,937613003,5,Belarussian,bak,no,[ukr],37
+1812,943555703,5,Belarussian,fin,no,[],30
+1813,951226041,5,Belarussian,sch,no,[],35
+1814,997523003,5,Belarussian,sch,no,[oth],30
+1815,1193309,5,Slovak,bak,no,[],30
+1816,3543209,5,Slovak,fin,no,[oth],37
+1817,21523309,5,Slovak,fin,no,[],36
+1818,34493209,5,Slovak,fin,no,[],31
+1819,39783309,5,Slovak,unk,unk,[],33
+1820,42363209,5,Slovak,bak,no,[],37
+1821,51883309,5,Slovak,bak,no,[],27
+1822,107363209,5,Slovak,fin,no,[],31
+1823,185813309,5,Slovak,fin,no,[oth],37
+1824,205243209,5,Slovak,fin,no,[oth],37
+1825,214293209,5,Slovak,sch,no,[ukr],37
+1826,223313209,5,Slovak,sch,no,[oth],37
+1827,238383309,5,Slovak,fin,no,[],37
+1828,300633209,5,Slovak,fin,no,[ukr],36
+1829,334893209,5,Slovak,unk,unk,[],37
+1830,369423209,5,Slovak,bak,yes,[ukr],36
+1831,374983209,5,Slovak,bak,unk,[],37
+1832,380943209,5,Slovak,bak,no,[oth],37
+1833,397103309,5,Slovak,fin,no,[],37
+1834,405113309,5,Slovak,fin,yes,[oth],37
+1835,410553209,5,Slovak,sch,no,[oth],37
+1836,432473209,5,Slovak,fin,no,[],37
+1837,444773309,5,Slovak,bak,no,[oth],37
+1838,568543309,5,Slovak,sch,no,[],31
+1839,569883209,5,Slovak,fin,no,[ukr],36
+1840,578403309,5,Slovak,mag,yes,[],37
+1841,594193209,5,Slovak,bak,no,[],37
+1842,648543209,5,Slovak,bak,no,[],37
+1843,661053209,5,Slovak,bak,unk,[],37
+1844,694203309,5,Slovak,unk,unk,[],37
+1845,707103309,5,Slovak,fin,no,[oth],37
+1846,745923309,5,Slovak,bak,no,[oth],17
+1847,753743209,5,Slovak,sch,no,[oth],37
+1848,831243209,5,Slovak,sch,no,[oth],11
+1849,872723209,5,Slovak,fin,no,[oth],37
+1850,894993209,5,Slovak,unk,unk,[],35
+1851,908473209,5,Slovak,bak,no,[oth],27
+1852,911493309,5,Slovak,fin,no,[],36
+1853,966323209,5,Slovak,bak,no,[],25
+1854,985723209,5,Slovak,fin,no,[],24
+1855,1385703,5,Bulgarian,bak,no,[],37
+1856,30515703,5,Bulgarian,fin,no,[],36
+1857,41253003,5,Bulgarian,fin,no,[oth],12
+1858,70865703,5,Bulgarian,fin,no,"[ukr, oth]",9
+1859,82296041,5,Bulgarian,bak,no,[oth],8
+1860,83885703,5,Bulgarian,bak,no,[oth],37
+1861,100205703,5,Bulgarian,fin,no,[oth],37
+1862,110946041,5,Bulgarian,fin,no,[ukr],36
+1863,149295703,5,Bulgarian,bak,no,"[ukr, bel, oth]",34
+1864,201955703,5,Bulgarian,fin,no,[oth],37
+1865,210215703,5,Bulgarian,fin,no,[],37
+1866,259705703,5,Bulgarian,fin,no,[oth],30
+1867,302475703,5,Bulgarian,fin,no,[oth],37
+1868,331786041,5,Bulgarian,sch,yes,[],33
+1869,332245703,5,Bulgarian,unk,unk,[],36
+1870,353155703,5,Bulgarian,fin,no,[oth],32
+1871,383725730,5,Bulgarian,sch,no,[],36
+1872,385115703,5,Bulgarian,bak,no,[oth],37
+1873,390746041,5,Bulgarian,bak,no,[oth],37
+1874,397765703,5,Bulgarian,fin,no,[ukr],37
+1875,403716041,5,Bulgarian,unk,unk,[],36
+1876,447815703,5,Bulgarian,mag,no,[],30
+1877,466566041,5,Bulgarian,bak,no,[oth],37
+1878,555373003,5,Bulgarian,fin,yes,[],31
+1879,575766041,5,Bulgarian,bak,no,"[ukr, bel]",37
+1880,582846041,5,Bulgarian,mag,no,[oth],36
+1881,589725703,5,Bulgarian,asp,yes,[ukr],37
+1882,625256041,5,Bulgarian,fin,no,[],12
+1883,626835703,5,Bulgarian,fin,no,[oth],36
+1884,627525730,5,Bulgarian,sch,no,[ukr],35
+1885,638106041,5,Bulgarian,bak,no,[oth],35
+1886,654885703,5,Bulgarian,bak,no,[oth],37
+1887,678316041,5,Bulgarian,sch,no,[],37
+1888,717996041,5,Bulgarian,sch,no,[],36
+1889,731315730,5,Bulgarian,bak,yes,[oth],37
+1890,784195703,5,Bulgarian,sch,no,[oth],37
+1891,788355703,5,Bulgarian,bak,no,[oth],36
+1892,791055703,5,Bulgarian,fin,no,[svk],36
+1893,798956041,5,Bulgarian,bak,no,[oth],30
+1894,811515703,5,Bulgarian,bak,no,[ukr],30
+1895,834036041,5,Bulgarian,fin,no,[oth],36
+1896,868566041,5,Bulgarian,sch,yes,[],37
+1897,924895703,5,Bulgarian,fin,no,[oth],37
+1898,930766041,5,Bulgarian,mag,yes,[ukr],37
+1899,949315703,5,Bulgarian,fin,no,[oth],34
+1900,959356041,5,Bulgarian,fin,no,[oth],37
+1901,971716041,5,Bulgarian,bak,no,[],36
+1902,997865703,5,Bulgarian,fin,unk,[oth],37
+1903,13423309,5,Slovene,bak,no,[oth],33
+1904,41033309,5,Slovene,mag,no,"[ukr, oth]",37
+1905,85103209,5,Slovene,fin,no,[],37
+1906,227633309,5,Slovene,fin,no,[oth],32
+1907,236703209,5,Slovene,bak,no,[],37
+1908,242993309,5,Slovene,fin,no,[ukr],37
+1909,251103209,5,Slovene,fin,no,[oth],37
+1910,277233209,5,Slovene,fin,no,[],37
+1911,290213309,5,Slovene,bak,no,[],34
+1912,334343309,5,Slovene,fin,no,[oth],31
+1913,418413209,5,Slovene,fin,no,[],37
+1914,426913209,5,Slovene,mag,yes,[],37
+1915,473343309,5,Slovene,asp,no,[oth],37
+1916,475413209,5,Slovene,fin,no,[],37
+1917,484123709,5,Slovene,unk,yes,[],34
+1918,487383209,5,Slovene,mag,no,[ukr],37
+1919,514683209,5,Slovene,bak,yes,[oth],37
+1920,536323309,5,Slovene,sch,yes,[oth],19
+1921,553133209,5,Slovene,fin,no,[],36
+1922,553453209,5,Slovene,bak,no,[oth],37
+1923,578313267,5,Slovene,mag,no,[srb],34
+1924,583963198,5,Slovene,bak,no,[],25
+1925,590703309,5,Slovene,fin,no,[],15
+1926,645878775,5,Slovene,bak,yes,"[srb, ukr, bel]",34
+1927,655773309,5,Slovene,fin,no,[oth],37
+1928,670873309,5,Slovene,bak,no,[oth],33
+1929,776273309,5,Slovene,bak,no,[],37
+1930,777513209,5,Slovene,fin,no,[oth],37
+1931,791173309,5,Slovene,sch,no,[oth],29
+1932,795453309,5,Slovene,sch,no,[pol],37
+1933,804293309,5,Slovene,fin,no,[oth],37
+1934,812773209,5,Slovene,fin,no,[bel],28
+1935,822043309,5,Slovene,mag,no,[],34
+1936,825233209,5,Slovene,bak,no,[],37
+1937,830723209,5,Slovene,fin,no,[oth],37
+1938,831503209,5,Slovene,fin,no,[],37
+1939,851263309,5,Slovene,fin,no,[oth],37
+1940,868503209,5,Slovene,unk,no,[],32
+1941,915423209,5,Slovene,fin,no,[],23
+1942,921979798,5,Slovene,mag,no,[],26
+1943,938293209,5,Slovene,sch,no,[],30
+1944,999793309,5,Slovene,mag,no,[],37
+1945,12496041,6,No Parallel Text,bak,yes,[oth],35
+1946,43855703,6,No Parallel Text,unk,no,[],35
+1947,56371691,6,No Parallel Text,bak,no,[],24
+1948,58063003,6,No Parallel Text,fin,no,[],35
+1949,59576041,6,No Parallel Text,bak,no,[oth],33
+1950,97165730,6,No Parallel Text,fin,no,[],34
+1951,115003003,6,No Parallel Text,bak,no,[],35
+1952,130023003,6,No Parallel Text,bak,no,[bel],35
+1953,141035703,6,No Parallel Text,fin,no,[oth],35
+1954,170966041,6,No Parallel Text,sch,no,[],35
+1955,195966041,6,No Parallel Text,fin,no,[],33
+1956,221939601,6,No Parallel Text,bak,no,[oth],35
+1957,237933003,6,No Parallel Text,sch,no,[],30
+1958,247775730,6,No Parallel Text,bak,no,[],35
+1959,260675703,6,No Parallel Text,mag,no,[oth],31
+1960,277873003,6,No Parallel Text,fin,no,[oth],35
+1961,285685703,6,No Parallel Text,bak,yes,"[ukr, bel]",35
+1962,297083003,6,No Parallel Text,fin,no,[oth],35
+1963,338926041,6,No Parallel Text,bak,no,[oth],35
+1964,391496041,6,No Parallel Text,fin,yes,[oth],35
+1965,438965703,6,No Parallel Text,bak,no,[oth],35
+1966,441696041,6,No Parallel Text,bak,no,[],35
+1967,490093003,6,No Parallel Text,unk,unk,[],35
+1968,567056041,6,No Parallel Text,fin,yes,[],35
+1969,595376041,6,No Parallel Text,mag,no,[bel],30
+1970,625215703,6,No Parallel Text,fin,no,[],33
+1971,672563003,6,No Parallel Text,bak,no,[ukr],35
+1972,696906041,6,No Parallel Text,mag,no,[oth],34
+1973,702931944,6,No Parallel Text,fin,no,[ukr],33
+1974,709996041,6,No Parallel Text,fin,no,[],31
+1975,723486041,6,No Parallel Text,fin,no,[oth],19
+1976,754515703,6,No Parallel Text,fin,no,[],35
+1977,778056041,6,No Parallel Text,sch,no,[oth],32
+1978,799635730,6,No Parallel Text,unk,unk,[],34
+1979,822016041,6,No Parallel Text,sch,yes,[oth],35
+1980,833913003,6,No Parallel Text,fin,no,[oth],35
+1981,842713003,6,No Parallel Text,bak,no,"[ukr, oth]",35
+1982,844353003,6,No Parallel Text,mag,no,[oth],33
+1983,880126041,6,No Parallel Text,bak,no,[],34
+1984,933075703,6,No Parallel Text,fin,no,[oth],34
+1985,954122008,6,No Parallel Text,bak,no,[oth],35
+1986,954626041,6,No Parallel Text,unk,unk,[],10
+1987,978533373,6,No Parallel Text,bak,no,[oth],34
+1988,998815703,6,No Parallel Text,unk,unk,[],26
+1989,963003,6,Polish,bak,no,[oth],35
+1990,48993003,6,Polish,bak,no,[],34
+1991,51805703,6,Polish,mag,no,[oth],35
+1992,83953003,6,Polish,sch,no,[oth],24
+1993,95133003,6,Polish,unk,unk,[],29
+1994,134573003,6,Polish,fin,no,[],32
+1995,169933003,6,Polish,fin,no,[],34
+1996,172505302,6,Polish,mag,no,[],29
+1997,259286041,6,Polish,bak,no,[ukr],33
+1998,302358501,6,Polish,bak,no,[ukr],30
+1999,306165730,6,Polish,mag,no,[oth],34
+2000,322743003,6,Polish,fin,no,[],16
+2001,327563003,6,Polish,fin,no,[],23
+2002,376986041,6,Polish,sch,no,[],35
+2003,409913396,6,Polish,fin,no,[ukr],33
+2004,434835730,6,Polish,unk,unk,[],29
+2005,463453003,6,Polish,bak,no,[oth],35
+2006,507496041,6,Polish,fin,yes,[oth],20
+2007,530233003,6,Polish,unk,unk,[],32
+2008,546173003,6,Polish,fin,no,[oth],35
+2009,557725703,6,Polish,bak,yes,[oth],35
+2010,561277266,6,Polish,fin,no,[],34
+2011,565296880,6,Polish,bak,yes,[],34
+2012,586565730,6,Polish,fin,no,[oth],35
+2013,614689275,6,Polish,bak,yes,[],30
+2014,623381663,6,Polish,bak,no,[oth],14
+2015,639906041,6,Polish,bak,no,[oth],35
+2016,654516041,6,Polish,fin,no,[oth],35
+2017,669136041,6,Polish,fin,no,[oth],35
+2018,674686041,6,Polish,bak,no,[ukr],32
+2019,733605703,6,Polish,unk,unk,[],33
+2020,782448137,6,Polish,bak,no,[],33
+2021,798305121,6,Polish,bak,yes,[ukr],34
+2022,850455703,6,Polish,fin,no,[],33
+2023,907595703,6,Polish,sch,no,[ukr],35
+2024,913315703,6,Polish,fin,no,[oth],24
+2025,948583003,6,Polish,fin,no,[oth],35
+2026,15965730,6,Serbian,sch,no,[oth],35
+2027,26786041,6,Serbian,bak,yes,[oth],33
+2028,40926041,6,Serbian,bak,no,"[ukr, bel, oth]",35
+2029,49986041,6,Serbian,bak,yes,[ukr],35
+2030,56855703,6,Serbian,fin,no,[oth],35
+2031,75846041,6,Serbian,fin,yes,[oth],34
+2032,78505730,6,Serbian,fin,yes,[oth],35
+2033,99935703,6,Serbian,fin,no,[oth],27
+2034,131005703,6,Serbian,mag,no,[oth],35
+2035,155195703,6,Serbian,fin,no,"[ukr, oth]",35
+2036,157175703,6,Serbian,fin,no,[oth],32
+2037,217235703,6,Serbian,bak,yes,[],35
+2038,257915703,6,Serbian,fin,no,[oth],35
+2039,283526041,6,Serbian,mag,no,[oth],28
+2040,296525703,6,Serbian,fin,no,[oth],35
+2041,312036041,6,Serbian,fin,no,[oth],35
+2042,335926041,6,Serbian,fin,no,[],35
+2043,338696041,6,Serbian,bak,no,[oth],35
+2044,361535730,6,Serbian,bak,no,[oth],7
+2045,453335703,6,Serbian,bak,no,[oth],35
+2046,470556041,6,Serbian,fin,no,[oth],35
+2047,493495703,6,Serbian,sch,no,[oth],35
+2048,561226041,6,Serbian,bak,no,[oth],35
+2049,571835703,6,Serbian,sch,no,[oth],8
+2050,597326041,6,Serbian,sch,no,[oth],35
+2051,604366041,6,Serbian,sch,no,[oth],35
+2052,614695703,6,Serbian,fin,yes,[],35
+2053,661015703,6,Serbian,bak,no,[],31
+2054,720645703,6,Serbian,bak,no,[],35
+2055,755545703,6,Serbian,fin,no,[],35
+2056,768145730,6,Serbian,fin,no,[oth],35
+2057,777406041,6,Serbian,bak,no,[],24
+2058,779345703,6,Serbian,fin,no,[],32
+2059,783896041,6,Serbian,fin,no,[],24
+2060,799785703,6,Serbian,bak,no,[],35
+2061,800286041,6,Serbian,unk,unk,[],35
+2062,813715703,6,Serbian,sch,no,[oth],34
+2063,822876041,6,Serbian,fin,no,[oth],30
+2064,824643003,6,Serbian,mag,no,[],35
+2065,873955703,6,Serbian,mag,no,[oth],35
+2066,879186041,6,Serbian,sch,yes,[],35
+2067,885056041,6,Serbian,sch,no,[ukr],32
+2068,941686041,6,Serbian,fin,no,[ukr],34
+2069,943486041,6,Serbian,bak,no,[],35
+2070,964955703,6,Serbian,bak,no,[],31
+2071,965915703,6,Serbian,bak,no,[],35
+2072,983575703,6,Serbian,asp,no,[bel],35
+2073,983785730,6,Serbian,bak,yes,[oth],35
+2074,986786041,6,Serbian,fin,no,[],24
+2075,987256041,6,Serbian,sch,yes,[oth],35
+2076,998265703,6,Serbian,fin,no,[],35
+2077,999255703,6,Serbian,bak,no,[oth],33
+2078,126041,6,Czech,fin,no,[ukr],35
+2079,48145703,6,Czech,sch,no,[ukr],34
+2080,100855703,6,Czech,fin,no,[oth],33
+2081,130755703,6,Czech,fin,yes,[],35
+2082,158225703,6,Czech,fin,no,"[ukr, bel]",35
+2083,288785703,6,Czech,bak,no,[oth],33
+2084,342485703,6,Czech,fin,no,[],32
+2085,396875703,6,Czech,mag,yes,[ukr],34
+2086,402186041,6,Czech,sch,no,[ukr],35
+2087,404765703,6,Czech,fin,no,[],30
+2088,406426041,6,Czech,bak,no,[oth],35
+2089,413926041,6,Czech,fin,no,[],33
+2090,472075703,6,Czech,mag,yes,[srb],33
+2091,479875703,6,Czech,mag,no,[ukr],30
+2092,492075730,6,Czech,fin,no,[],33
+2093,516725730,6,Czech,fin,no,[oth],35
+2094,534555703,6,Czech,fin,no,[oth],32
+2095,544475703,6,Czech,bak,yes,[oth],32
+2096,589735730,6,Czech,unk,unk,[],33
+2097,590255703,6,Czech,fin,no,[oth],35
+2098,624955703,6,Czech,bak,yes,[ukr],35
+2099,645375703,6,Czech,fin,no,[oth],35
+2100,658066041,6,Czech,fin,no,[oth],29
+2101,659215703,6,Czech,fin,no,[oth],14
+2102,674135703,6,Czech,fin,yes,[oth],27
+2103,696125730,6,Czech,fin,no,[ukr],35
+2104,730565703,6,Czech,fin,yes,[bel],29
+2105,738976041,6,Czech,fin,no,[ukr],21
+2106,742546041,6,Czech,fin,no,[oth],35
+2107,743645703,6,Czech,fin,no,[oth],35
+2108,780105703,6,Czech,bak,no,[],35
+2109,795975703,6,Czech,sch,yes,[oth],31
+2110,844895703,6,Czech,bak,no,[],33
+2111,855325703,6,Czech,fin,yes,[srb],33
+2112,859445703,6,Czech,fin,no,[],29
+2113,886085703,6,Czech,fin,no,[oth],34
+2114,974276041,6,Czech,fin,yes,[oth],33
+2115,37660601,6,Ukranian,fin,no,[oth],35
+2116,39983003,6,Ukranian,mag,no,[],33
+2117,68673003,6,Ukranian,fin,no,[oth],34
+2118,98513003,6,Ukranian,fin,no,[],35
+2119,100295703,6,Ukranian,fin,yes,[oth],35
+2120,110375730,6,Ukranian,fin,no,[],31
+2121,136113003,6,Ukranian,unk,unk,[],30
+2122,151913003,6,Ukranian,fin,no,[oth],35
+2123,187573003,6,Ukranian,fin,no,[],35
+2124,236986041,6,Ukranian,fin,no,[oth],35
+2125,237163003,6,Ukranian,mag,no,[oth],34
+2126,247295730,6,Ukranian,sch,no,[oth],34
+2127,273665703,6,Ukranian,fin,no,[oth],35
+2128,294675703,6,Ukranian,fin,no,[oth],35
+2129,364883927,6,Ukranian,sch,no,[],31
+2130,382245703,6,Ukranian,unk,unk,[],34
+2131,402575703,6,Ukranian,bak,no,[],29
+2132,414995730,6,Ukranian,fin,no,[oth],35
+2133,416662193,6,Ukranian,mag,yes,[oth],30
+2134,478443003,6,Ukranian,fin,no,[oth],35
+2135,494746830,6,Ukranian,fin,no,[],35
+2136,534104800,6,Ukranian,fin,no,[bel],34
+2137,534275730,6,Ukranian,unk,unk,[],27
+2138,543003003,6,Ukranian,bak,no,[],35
+2139,550773003,6,Ukranian,fin,no,[oth],35
+2140,553066041,6,Ukranian,bak,yes,[oth],33
+2141,556095703,6,Ukranian,fin,no,[],35
+2142,619020159,6,Ukranian,sch,no,[],34
+2143,643906041,6,Ukranian,bak,no,[oth],27
+2144,690685730,6,Ukranian,fin,no,[oth],35
+2145,755693984,6,Ukranian,bak,no,[],31
+2146,764053003,6,Ukranian,fin,no,[oth],35
+2147,783396041,6,Ukranian,fin,no,[],35
+2148,817025730,6,Ukranian,mag,no,[oth],32
+2149,928105863,6,Ukranian,fin,no,[],35
+2150,954305703,6,Ukranian,fin,no,[],35
+2151,956866041,6,Ukranian,bak,yes,[oth],33
+2152,52423003,6,Belarussian,fin,no,[oth],10
+2153,80135523,6,Belarussian,fin,no,[ukr],35
+2154,85675703,6,Belarussian,fin,no,[oth],34
+2155,185935730,6,Belarussian,fin,no,[],34
+2156,199335730,6,Belarussian,unk,unk,[],22
+2157,208173003,6,Belarussian,fin,no,[ukr],34
+2158,214096041,6,Belarussian,mag,no,[],34
+2159,252465730,6,Belarussian,bak,no,[oth],35
+2160,292785703,6,Belarussian,fin,no,[oth],34
+2161,294375730,6,Belarussian,fin,no,[oth],32
+2162,312265703,6,Belarussian,bak,no,[oth],35
+2163,344743003,6,Belarussian,fin,no,[],35
+2164,443753003,6,Belarussian,fin,no,[oth],25
+2165,456873003,6,Belarussian,bak,no,[oth],35
+2166,467785703,6,Belarussian,fin,no,[oth],35
+2167,484706041,6,Belarussian,bak,no,[ukr],35
+2168,516357796,6,Belarussian,bak,unk,[ukr],29
+2169,518070536,6,Belarussian,bak,yes,[],34
+2170,522435703,6,Belarussian,fin,no,[],35
+2171,530896041,6,Belarussian,unk,unk,[],33
+2172,544365287,6,Belarussian,bak,no,"[pol, ukr]",33
+2173,585203003,6,Belarussian,fin,no,[ukr],32
+2174,587623003,6,Belarussian,fin,no,[oth],35
+2175,589663003,6,Belarussian,fin,no,[ukr],35
+2176,606384057,6,Belarussian,fin,no,[oth],34
+2177,721755703,6,Belarussian,fin,no,[],32
+2178,741025703,6,Belarussian,bak,no,[ukr],33
+2179,748575703,6,Belarussian,bak,no,[oth],35
+2180,771775703,6,Belarussian,bak,no,[oth],34
+2181,808476041,6,Belarussian,sch,no,[ukr],34
+2182,820096041,6,Belarussian,fin,no,[],27
+2183,829506639,6,Belarussian,mag,yes,[],35
+2184,835568777,6,Belarussian,bak,no,[],31
+2185,845193003,6,Belarussian,fin,no,[ukr],35
+2186,851706041,6,Belarussian,fin,no,[],35
+2187,916383003,6,Belarussian,fin,yes,[oth],34
+2188,957293003,6,Belarussian,fin,no,[oth],34
+2189,814408,6,Bulgarian,fin,no,[],35
+2190,13716041,6,Bulgarian,sch,no,[oth],35
+2191,60666041,6,Bulgarian,sch,yes,[oth],34
+2192,60685703,6,Bulgarian,fin,no,[ukr],35
+2193,102615703,6,Bulgarian,bak,no,[oth],35
+2194,104696041,6,Bulgarian,fin,yes,[ukr],35
+2195,136995703,6,Bulgarian,asp,no,[ukr],35
+2196,153045703,6,Bulgarian,sch,no,[],29
+2197,199255703,6,Bulgarian,sch,no,[oth],35
+2198,219985703,6,Bulgarian,fin,no,[oth],35
+2199,278495703,6,Bulgarian,fin,yes,[oth],34
+2200,281655703,6,Bulgarian,mag,no,[],35
+2201,384405703,6,Bulgarian,bak,no,[oth],35
+2202,395815703,6,Bulgarian,fin,no,[],35
+2203,409076041,6,Bulgarian,bak,no,"[ukr, bel]",33
+2204,412365703,6,Bulgarian,mag,yes,[],31
+2205,425206041,6,Bulgarian,sch,yes,[oth],33
+2206,519666041,6,Bulgarian,fin,no,"[pol, ukr, oth]",35
+2207,527255703,6,Bulgarian,bak,no,[],35
+2208,552615703,6,Bulgarian,fin,no,[oth],34
+2209,561155703,6,Bulgarian,fin,no,[ukr],35
+2210,562515703,6,Bulgarian,fin,no,[oth],25
+2211,603915730,6,Bulgarian,unk,unk,[],33
+2212,616265703,6,Bulgarian,fin,no,[],32
+2213,618246041,6,Bulgarian,unk,unk,[],34
+2214,626965703,6,Bulgarian,sch,no,[oth],35
+2215,674126041,6,Bulgarian,fin,no,[oth],33
+2216,701005703,6,Bulgarian,mag,no,[],34
+2217,706015703,6,Bulgarian,sch,no,[ukr],16
+2218,718665703,6,Bulgarian,fin,yes,[ukr],35
+2219,765375703,6,Bulgarian,fin,no,[oth],34
+2220,817796041,6,Bulgarian,bak,no,[oth],35
+2221,827055703,6,Bulgarian,mag,no,[oth],34
+2222,874365703,6,Bulgarian,bak,no,[],24
+2223,917745703,6,Bulgarian,bak,no,[],35
+2224,960385703,6,Bulgarian,fin,no,[oth],35
+2225,968285703,6,Bulgarian,fin,no,[ukr],35
+2226,923309,6,Slovene,fin,yes,"[pol, ukr, bel]",35
+2227,13433209,6,Slovene,fin,no,[oth],34
+2228,14633309,6,Slovene,bak,no,[],33
+2229,23233309,6,Slovene,unk,unk,[],34
+2230,140943209,6,Slovene,fin,no,[],24
+2231,240763309,6,Slovene,fin,no,[oth],35
+2232,252843209,6,Slovene,fin,no,[oth],34
+2233,267243309,6,Slovene,fin,yes,"[ukr, bel]",32
+2234,275593309,6,Slovene,fin,no,[],28
+2235,293303209,6,Slovene,fin,no,[oth],35
+2236,345463309,6,Slovene,fin,no,[],35
+2237,356483309,6,Slovene,asp,no,[],32
+2238,391383409,6,Slovene,fin,no,[],35
+2239,430183309,6,Slovene,mag,no,[],35
+2240,514713309,6,Slovene,fin,no,[oth],35
+2241,572934792,6,Slovene,mag,no,[],35
+2242,621043209,6,Slovene,fin,no,[ukr],18
+2243,623413309,6,Slovene,fin,no,[oth],32
+2244,685652528,6,Slovene,bak,no,[],21
+2245,689533209,6,Slovene,fin,no,[oth],35
+2246,698183309,6,Slovene,sch,no,[oth],35
+2247,700933309,6,Slovene,asp,yes,[oth],35
+2248,706933209,6,Slovene,sch,no,[oth],35
+2249,728113209,6,Slovene,bak,unk,[oth],25
+2250,731573209,6,Slovene,mag,no,[oth],23
+2251,783223209,6,Slovene,fin,no,[oth],33
+2252,810183209,6,Slovene,mag,no,[bel],29
+2253,852003209,6,Slovene,fin,yes,[],34
+2254,852212036,6,Slovene,bak,yes,[],34
+2255,871273209,6,Slovene,fin,no,[],35
+2256,880153209,6,Slovene,fin,no,[ukr],34
+2257,908803209,6,Slovene,bak,yes,[],31
+2258,913343209,6,Slovene,bak,yes,[oth],14
+2259,917143209,6,Slovene,fin,no,[oth],35
+2260,918893309,6,Slovene,bak,no,[oth],35
+2261,967583209,6,Slovene,fin,no,[oth],28
