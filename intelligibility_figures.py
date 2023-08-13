@@ -63,52 +63,6 @@ def orderIndex(data: pd.DataFrame, order: list) -> pd.DataFrame:
             
     return data4
 
-"""!!!
-# Drawing data on the number of partisipants.
-def show_langs(test: str, user_data, axes):
-    if test == 'All':
-        data2 = user_data[['parallel_lang', 'mean_mark']]
-    else:
-        data2 = user_data[['parallel_lang', 'mean_mark']][user_data.test_id == int(test)]
-    
-    order = ['No Parallel Text', 'Ukranian', 'Belarussian', 'Bulgarian', 
-             'Polish', 'Czech', 'Slovak', 'Serbian', 'Slovene']
-    order2= ['Контроль', 'Укр.', 'Бел.', 'Болг.', 
-             'Пол.', 'Чеш.', 'Словацк.', 'Серб.', 'Словенск.']
-    
-    data = calcCIFrame(data2, 'parallel_lang')
-    data4 = orderIndex(data, order)
-#    display(data)
-    display(data4.T)
-    
-    axes.clear()
-
-    axes.set_ylim(0, 1)
-    sns.pointplot(x='parallel_lang', y="mean_mark", data=data2, palette="Dark2",#color="#FF0000", 
-                  markers="x", order=order, errwidth=2.5, capsize=0.1, 
-                  join=False, legend=None, ax=axes) 
-
-    offset = moveCollection(axes, 0, 12/72., "left")
-    moveLines(axes, offset)
-    #sns.boxplot(x="speciality", y="uavg", data=datas[(datas.ln1==lang)], order=["yes", "no"], notch=True, ax=axes[0])
-    sns.swarmplot(x='parallel_lang', y="mean_mark", data=data2, order=order, 
-                  palette="Set2", size=3, color=".3", linewidth=0, ax=axes, alpha=0.5) 
-    
-#    a = data2.iloc[0, 0]
-    
-    
-    patches = [Rectangle((-0.5, data4.iloc[0, 2]), 10, data4.iloc[0, 3] - data4.iloc[0, 2], alpha = 0.3, edgecolor='#0011DD')]
-    pc = PatchCollection(patches, alpha = 0.1, facecolor='#0011DD')
-
-    axes.add_collection(pc)  
-    plt.ylabel('Средняя понимаемость для информанта')
-    axes.set_xticklabels(order2)
-#    axes.set_xticklabels(axes.get_xticklabels(), rotation=15)#, ha='right')
-    plt.xlabel('Язык параллельного текста')
-#    axes.xaxis.set_label_coords(2, 1)
-#    axes.set_title("")
-"""
-
 # Drawing data on the number of partisipants.
 def show_langs(test: str, user_data, axes):
     if test == 'All':
@@ -123,13 +77,12 @@ def show_langs(test: str, user_data, axes):
     
     data = calcCIFrame(data2, 'parallel_lang')
     data4 = orderIndex(data, order)
-#    display(data)
     display(data4.T)
     
     axes.clear()
 
     axes.set_ylim(0, 1)
-    sns.pointplot(x='parallel_lang', y="mean_mark", data=data2, palette="Dark2",# color="#000000", 
+    sns.pointplot(x='parallel_lang', y="mean_mark", data=data2, palette="Dark2",
                   markers="x", order=order, errwidth=2., capsize=0.1, 
                   join=False, ax=axes) 
 
@@ -141,9 +94,8 @@ def show_langs(test: str, user_data, axes):
     
     offset = moveCollection(axes, 0, 12/72., "left")
     moveLines(axes, offset)
-    #sns.boxplot(x="speciality", y="uavg", data=datas[(datas.ln1==lang)], order=["yes", "no"], notch=True, ax=axes[0])
     sns.swarmplot(x='parallel_lang', y="mean_mark", data=data2, order=order, 
-                  size=3, palette="Set2", #color="#444444", 
+                  size=3, palette="Set2", 
                   linewidth=0, ax=axes, alpha=0.5) 
     
     patches = [Rectangle((-0.5, data4.iloc[0, 2]), 10, data4.iloc[0, 3] - data4.iloc[0, 2], alpha = 0.3, edgecolor='#0011DD'),]
@@ -166,109 +118,7 @@ def show_langs(test: str, user_data, axes):
     
     plt.ylabel("Correctness of Informants' Answers")
     axes.set_xticklabels(order2)
-#    axes.set_xticklabels(axes.get_xticklabels(), rotation=15)#, ha='right')
     plt.xlabel('Parallel Language')
-#    axes.xaxis.set_label_coords(2, 1)
-#    axes.set_title("")
-
-
-"""!!!
-def show_langs_by_tests(user_data, axes):
-    data2 = user_data[['parallel_lang', 'mean_mark', 'test_id']]
-    data = data2.groupby(['parallel_lang', 'test_id']).agg(['count', 'mean', 'std'])
-    data['ci'] = 1.96 * data[('mean_mark', 'std')] / np.sqrt(data[('mean_mark', 'count')])
-    data['ci_min'] = data[('mean_mark', 'mean')] - data['ci']
-    data['ci_max'] = data[('mean_mark', 'mean')] + data['ci']
-    data = data.drop([('mean_mark', 'std'), 'ci'], axis=1)
-    data.columns = ['count', 'mean', 'ci_min', 'ci_max']
-    data['test_id'] = [i[1] for i in data.index]
-    data['language'] = [i[0] for i in data.index]
-    #data.index = [i[0]+' '+str(i[1]) for i in data.index]
-    data.index = range(len(data.index))
-    #data.columns
-    data
-
-    order = ['No Parallel Text', 'Ukranian', 'Belarussian', 'Bulgarian', 
-             'Polish', 'Czech', 'Slovak', 'Serbian', 'Slovene']
-    order2= ['Контроль', 'Укр.', 'Бел.', 'Болг.', 
-             'Пол.', 'Чеш.', 'Словацк.', 'Серб.', 'Словенск.']
-
-    fig, axes = plt.subplots(1, 1, figsize=(7,4), num=101)
-    axes.set_ylim(0, 1)
-
-    markers = ['o', 'x', 'd', '^', '+', 's', 'p', '*', 'v']
-
-    numl = len(order)
-    #for i in range(6):
-    for i in range(numl):
-        #sns.pointplot(x='parallel_lang', y="uavg", data=data2[data2.test_id==6-i], palette="Dark2",#color="#FF0000", 
-        sns.pointplot(x='test_id', y="mean_mark", data=data2[data2.parallel_lang==order[numl-i-1]], palette="Dark2",#color="#FF0000", 
-                      markers=markers[i], errwidth=2.5, capsize=0.1, #order=order, 
-                      join=False, legend=None, axes=axes) 
-        #xs = axes.get_xticks()
-        for j in range(i+1):
-            offset = moveCollection(axes, j, 6/70., "right")
-        moveLines(axes, offset, "right")
-    axes.set_xlim(0, 6)
-    plt.ylabel('Средняя понятность по тесту')
-    plt.xlabel('Номер теста')
-    axes.set_xticklabels([' '*20+str(i) for i in range(1, 7)])
-
-    axes.grid()
-
-    _ = axes.legend(handles=[Line2D([], [], marker=m, color='black') for m in markers[::-1]], labels=order2,
-                    loc = 'lower right', ncol=2, title='Языки')
-
-    fig.savefig('img_res/Fig_2_distribution_users_tests.png', dpi = 600)
-
-def show_tests_by_langs(user_data, axes):
-    data2 = user_data[['parallel_lang', 'mean_mark', 'test_id']]
-    data = data2.groupby(['parallel_lang', 'test_id']).agg(['count', 'mean', 'std'])
-    data['ci'] = 1.96 * data[('mean_mark', 'std')] / np.sqrt(data[('mean_mark', 'count')])
-    data['ci_min'] = data[('mean_mark', 'mean')] - data['ci']
-    data['ci_max'] = data[('mean_mark', 'mean')] + data['ci']
-    data = data.drop([('mean_mark', 'std'), 'ci'], axis=1)
-    data.columns = ['count', 'mean', 'ci_min', 'ci_max']
-    data['test_id'] = [i[1] for i in data.index]
-    data['language'] = [i[0] for i in data.index]
-    #data.index = [i[0]+' '+str(i[1]) for i in data.index]
-    data.index = range(len(data.index))
-    #data.columns
-    data
-
-    order = ['No Parallel Text', 'Ukranian', 'Belarussian', 'Bulgarian', 
-             'Polish', 'Czech', 'Slovak', 'Serbian', 'Slovene']
-    order2= ['Контроль', 'Укр.', 'Бел.', 'Болг.', 
-             'Пол.', 'Чеш.', 'Словацк.', 'Серб.', 'Словенск.']
-
-    fig, axes = plt.subplots(1, 1, figsize=(7,4), num=102)
-    axes.set_ylim(0, 1)
-
-    markers = ['o', 'x', 'd', '^', 's', '*']
-
-    numl = len(order)
-    for i in range(6):
-    #for i in range(numl):
-        sns.pointplot(x='parallel_lang', y="mean_mark", data=data2[data2.test_id==6-i], palette="Dark2",#color="#FF0000", 
-        #sns.pointplot(x='test_id', y="mean_mark", data=data2[data2.parallel_lang==order[numl-i-1]], palette="Dark2",#color="#FF0000", 
-                      markers=markers[i], errwidth=2.5, capsize=0.1, #order=order, 
-                      join=False, legend=None, axes=axes) 
-        #xs = axes.get_xticks()
-        for j in range(i+1):
-            offset = moveCollection(axes, j, 6/70., "right")
-        moveLines(axes, offset, "right")
-    axes.set_xlim(0, numl)
-    plt.ylabel('Средняя понятность по тесту')
-    plt.xlabel('Параллельный язык')
-    axes.set_xticklabels([' '*15+i for i in order2])
-
-    axes.grid()
-
-    _ = axes.legend(handles=[Line2D([], [], marker=m, color='black') for m in markers[::-1]], 
-                    labels=range(1, 7), loc = 'lower right', ncol=2, title='Тесты')
-
-    fig.savefig('img_res/Fig_3_distribution_users_languagess.png', dpi = 600)
-"""
 
 def show_langs_by_tests(user_data, axes):
     data2 = user_data[['parallel_lang', 'mean_mark', 'test_id']]
@@ -293,7 +143,7 @@ def show_langs_by_tests(user_data, axes):
     colors = ['#000000', '#111111', '#222222', '#333333', '#444444', '#555555', '#666666', '#777777', '#888888']
 
     for i, lang in enumerate(order[::-1]):
-        sns.pointplot(x='test_id', y="mean_mark", data=data2[data2.parallel_lang==lang], palette="Dark2",# color=colors[i], 
+        sns.pointplot(x='test_id', y="mean_mark", data=data2[data2.parallel_lang==lang], palette="Dark2",
                       markers=markers[i], errwidth=1.5, capsize=0.1, order=range(1,7), 
                       join=False, ax=axes) 
         for j in range(i+1):
@@ -336,8 +186,8 @@ def show_tests_by_langs(user_data, axes):
 
 
     for i in range(1, 7):
-        sns.pointplot(x='parallel_lang', y="mean_mark", data=data2[data2.test_id==6-i+1], palette="Dark2",# color=colors[i], 
-                      markers=markers[i-1], errwidth=1.5, capsize=0.1, order=order, #facecolor=colors[i],
+        sns.pointplot(x='parallel_lang', y="mean_mark", data=data2[data2.test_id==6-i+1], palette="Dark2",
+                      markers=markers[i-1], errwidth=1.5, capsize=0.1, order=order, 
                       join=False, ax=axes)
         for j in range(i):
             offset = moveCollection(axes, j, 6/70., "right")
@@ -352,7 +202,6 @@ def show_tests_by_langs(user_data, axes):
                     labels=range(1, 7), loc = 'lower right', ncol=2, title='Test Number')
 
     axes.grid()
-    # axes.legend(loc="upper left")
 
     fig.savefig('img_res/Fig_3_distribution_users_languagess.png', dpi = 600)
     return fig
@@ -388,11 +237,9 @@ def show_age(field: str, test: str, user_data, axes):
     offset = moveCollection(axes, 0, 6/72., "left")
     moveLines(axes, offset)
 
-    #sns.boxplot(x="speciality", y="uavg", data=datas[(datas.ln1==lang)], order=["yes", "no"], notch=True, ax=axes[0])
     sns.swarmplot(x=field, y="mean_mark", data=data3, order=order, 
                   palette="Set2", hue='no parallel text',
                     size=4, color=".3", linewidth=0, ax=axes, alpha=0.7)
-    #axes.set_title(lang)
     axes.set_xticklabels(axes.get_xticklabels(), rotation=15, ha='right')
 
     
@@ -432,10 +279,8 @@ def drawForeign(test_no, user_data, axes):
     else:
         dat = user_data[user_data.test_id==int(test_no)]
     flangs = dat.groupby('known_langs').count()
-#    flangs = list(flangs[flangs['native_lang']>2].index)
     flangs = list(flangs.index)
     dat = dat[dat['known_langs'].map(lambda x: x in flangs)].copy()
-    #display(dat)
     axes.clear()
     
     sns.pointplot(x='known_langs', y='mean_mark', data = dat, markers='x', color='r', 
@@ -602,79 +447,6 @@ def processIntelligibility(data, texts):
 
 draw_shift = 2./72.
 
-"""!!!
-# Draws several results of test on the same figure.
-def drawIntelligibility2(dats, nams, axes, fig):
-
-    # Join data into one DataFrame.
-    replacement=["same root", "similar word", "no analogues", "false friend"]
-    replacement2=["1", "2", "0", "!"]
-    ddd2 = []
-    for n, dat2 in enumerate(dats):
-        for r1,r2 in zip(replacement, replacement2):
-            dat=dat2[dat2['type']==r2].copy()
-            dat['type']=dat['type'].replace(r2, nams[n]+" "+r1)
-            ddd2.append(dat)
-    ddd=pd.concat(ddd2)
-    
-    order=[n+" "+r1 for r1 in replacement for n in nams]
-
-    axes[0].clear()
-    axes[1].clear()
-
-    sns.pointplot(x=ddd['type'], y=ddd['wo_par'], color="#FF0000", markers="x", order=order, errwidth=1.5, capsize=0.2, join=False, legend=None, ax=axes[0]) 
-    offset = moveCollection(axes[0], 0, draw_shift, "right")
-    moveLines(axes[0], offset, "right")
-    moveLines(axes[0], offset, "right")
-    sns.pointplot(x=ddd['type'], y=ddd['w_par'], palette="Dark2", markers="x", order=order, errwidth=1.5, capsize=0.2, join=False, legend=None, ax=axes[0]) 
-    offset = moveCollection(axes[0], 1, draw_shift, "left")
-    moveLines(axes[0], offset, "left")
-
-    sns.swarmplot(x='type', y='w_par', data=ddd, order=order,# hue='lang',
-                  palette="Set2", size=2, color=".3", linewidth=0, ax=axes[0], alpha=0.7)
-    
-    sns.pointplot(x=ddd['type'], y=ddd['wo_par'], palette="Dark2", markers="x", order=order, errwidth=1.5, capsize=0.2, join=False, legend=None, ax=axes[1]) 
-    offset = moveCollection(axes[1], 0, draw_shift, "left")
-    moveLines(axes[1], offset)
-
-    sns.swarmplot(x='type', y='wo_par', data=ddd, order=order,# hue='lang',
-                  palette="Set2", size=2, color=".3", linewidth=0, ax=axes[1], alpha=0.7)
-
-    axes[0].set_xticklabels([i  for j in range(4) for i in range(1,7)])
-    axes[1].set_xticklabels([i  for j in range(4) for i in range(1,7)])
-    axes[0].set(xlabel="Тест с параллельным текстом", ylabel="", ylim=(0,1))
-    axes[1].set(xlabel="Контрольный тест", ylabel="", ylim=(0,1))
-    axes[0].yaxis.grid(True)
-    axes[1].yaxis.grid(True)
-    
-
-    patch_colors = ['#0011DD', '#FF0044', '#00FFDD', '#DD88DD']
-    for i in range(4):
-        patches = [Rectangle((-0.5+i*6, -0.5), 6, 2, alpha = 0.05, edgecolor=patch_colors[i])]
-        pc = PatchCollection(patches, alpha = 0.05, facecolor=patch_colors[i])
-        pc2 = copy.copy(pc)
-        axes[0].add_collection(pc)  
-        axes[1].add_collection(pc2)  
-    
-    plt.subplots_adjust(bottom = 0.3, wspace = 0.1)
-    axes[0].set_ylabel('Понятность слов')
-    
-    axes[0].text(0.1, 0.02, "Однокор.")
-    axes[0].text(7.1, 0.02, "Сходн.")
-    axes[0].text(13.1, 0.02, "Разн.")
-    axes[0].text(18.1, 0.02, "Ложн. др.")
-    axes[1].text(0.1, 0.02, "Однокор.")
-    axes[1].text(7.1, 0.02, "Сходн.")
-    axes[1].text(13.1, 0.02, "Разн.")
-    axes[1].text(18.1, 0.02, "Ложн. др.")
-    
-    fig.savefig('img_res/Fig_4_intelligibility_on_cognate.png', dpi = 600)    
-
-def showIntelligibility(qu_data, text_frame, axes, fig):
-    all_resn, all_tests = processIntelligibility(qu_data, text_frame)
-    drawIntelligibility2(all_resn, all_tests, axes, fig)
-"""
-
 def drawIntelligibility2(dats, nams, axes, fig):
     # Join data into one DataFrame.
     replacement=["same root", "similar word", "no analogues", "false friend"]
@@ -700,14 +472,14 @@ def drawIntelligibility2(dats, nams, axes, fig):
     offset = moveCollection(axes[0], 1, draw_shift, "left")
     moveLines(axes[0], offset, "left")
 
-    sns.swarmplot(x='type', y='w_par', data=ddd, order=order,# hue='lang',
+    sns.swarmplot(x='type', y='w_par', data=ddd, order=order,
                   palette="Set2", size=2, color="#999999", linewidth=0, ax=axes[0], alpha=0.7)
     
     sns.pointplot(x=ddd['type'], y=ddd['wo_par'], color="#FF0000", markers="x", order=order, errwidth=1.5, capsize=0.2, join=False, ax=axes[1]) 
     offset = moveCollection(axes[1], 0, draw_shift, "left")
     moveLines(axes[1], offset)
 
-    sns.swarmplot(x='type', y='wo_par', data=ddd, order=order,# hue='lang',
+    sns.swarmplot(x='type', y='wo_par', data=ddd, order=order,
                   palette="Set2", size=2, color=".3", linewidth=0, ax=axes[1], alpha=0.7)
 
     axes[0].set_xticklabels([i  for j in range(4) for i in range(1,7)])
@@ -775,7 +547,7 @@ def drawIntelligibility3(dats, nams, ax, fig, lang=None):
     offset = moveCollection(ax, 1, draw_shift, "left")
     moveLines(ax, offset, "left")
     
-    sns.swarmplot(x='type', y='w_par', data=ddd, order=order,# hue='lang',
+    sns.swarmplot(x='type', y='w_par', data=ddd, order=order,
                   palette=palt, size=2, linewidth=0, ax=ax, alpha=0.7)
     
     ax.set_xticklabels([i  for j in range(4) for i in range(1,7)])
@@ -794,7 +566,6 @@ def drawIntelligibility3(dats, nams, ax, fig, lang=None):
         ax.add_collection(pc)  
     
     plt.subplots_adjust(bottom = 0.3, wspace = 0.1)
-#     ax.set_ylabel()
     
     ax.text(0.1, 0.02, "Same Root")
     ax.text(5.6, 0.02, "Close Words")
@@ -809,86 +580,6 @@ def showIntelligibility(qu_data, text_frame, axes, fig, lang=None):
 
 markers = ['', 'o', 'v', '^', 'x', '+', '*']
 edge_colors = ['#000000','#FF0000', '#00FF00', '#0000FF', '#FF8800', '#8800FF', '#00FF88']
-
-"""!!!
-def drawAnIntel(user_data, all_resn, intellig, sameness, test_no, test_len, axes=None, show_legend = None):
-    if sameness == 'Same':
-        intellig['cnt'+str(test_no)] = all_resn[test_no-1][(all_resn[test_no-1]["type"]=='1')][['lang', 'w_par']].groupby('lang').count()['w_par']
-    elif sameness == 'Same and Similar':
-        intellig['cnt'+str(test_no)] = all_resn[test_no-1][(all_resn[test_no-1]["type"]=='1') | (all_resn[test_no-1]["type"]=='2')][['lang', 'w_par']].groupby('lang').count()['w_par']
-    elif sameness == 'No analogues':
-        intellig['cnt'+str(test_no)] = all_resn[test_no-1][(all_resn[test_no-1]["type"]=='0')][['lang', 'w_par']].groupby('lang').count()['w_par']
-    elif sameness == 'False Friends':
-        intellig['cnt'+str(test_no)] = all_resn[test_no-1][(all_resn[test_no-1]["type"]=='!')][['lang', 'w_par']].groupby('lang').count()['w_par']
-    else:
-        intellig['cnt'+str(test_no)] = all_resn[test_no-1][(all_resn[test_no-1]["type"]=='2')][['lang', 'w_par']].groupby('lang').count()['w_par']
-    intellig['intel'+str(test_no)] = all_resn[test_no-1][['lang', 'w_par']].groupby('lang').mean()
-    intellig['cnt'+str(test_no)] = intellig['cnt'+str(test_no)] / test_len
-    mean = user_data[['parallel_lang', 'mean_mark']] \
-                     [(user_data.test_id == test_no) & \
-                      (user_data.parallel_lang == 'No Parallel Text')].mean().iloc[0]
-    if axes != None:
-        sns.scatterplot(x='cnt'+str(test_no), y='intel'+str(test_no), data=intellig, marker=markers[test_no],
-                        hue=intellig.index, ax = axes, legend=show_legend, alpha=0.7)
-        sns.lineplot([0, 1], [mean, mean], alpha = 0.5, linewidth = 1, ax = axes)
-        axes.lines[-1].set_linestyle("--")
-    return mean
-
-
-def showIntel(sameness, user_data, qu_data, text_frame, axes, fig):
-    all_resn, all_tests = processIntelligibility(qu_data, text_frame)
-    intellig = pd.DataFrame()
-    
-    axes.clear()
-
-    mean2 = drawAnIntel(user_data, all_resn, intellig, sameness, 2, 40, axes, 'brief')
-    mean1 = drawAnIntel(user_data, all_resn, intellig, sameness, 1, 43, axes)
-    mean3 = drawAnIntel(user_data, all_resn, intellig, sameness, 3, 35, axes)
-    mean4 = drawAnIntel(user_data, all_resn, intellig, sameness, 4, 44, axes)
-    mean5 = drawAnIntel(user_data, all_resn, intellig, sameness, 5, 37, axes)
-    mean6 = drawAnIntel(user_data, all_resn, intellig, sameness, 6, 37, axes)
-    intellig.loc["No Parallel Text"] = (None, mean1, None, mean2, None, mean3, None, mean4, None, mean5, None, mean6)
-    intellig.columns = ['%Sim.Words, Test1', 'Avg.Results, Test1', 
-                        '%Sim.Words, Test2', 'Avg.Results, Test2',
-                        '%Sim.Words, Test3', 'Avg.Results, Test3',
-                        '%Sim.Words, Test4', 'Avg.Results, Test4',
-                        '%Sim.Words, Test5', 'Avg.Results, Test5',
-                        '%Sim.Words, Test6', 'Avg.Results, Test6']
-    sns.lineplot([0, 1], [0, 1], color = 'r', ax = axes)
-    axes.set_ylabel('Понятность теста')
-
-    langs2 = ['Язык пар. текста', 'Белорусский', 'Болгарский', 'Чешский', 
-              'Польский', 'Сербский', 'Словацкий', 'Словенский', 'Украинский']
-    axes.legend(loc="lower right")
-    for i, l in enumerate(langs2):
-        axes.get_legend().get_texts()[i].set_text(l)
-    same2title = {"Same": "Однокоренные", "Similar":"Сходные", "No analogues": "Без аналогов", "False Friends":"Ложные друзья"}
-    axes.set_title(same2title.get(sameness, "XXX"))
-    axes.set_xlabel("Доля слов данного типа")
-    display(intellig)
-    
-    same2fig = {"Same": "_1", "Similar":"_2", "No analogues": "_3", "False Friends":"_4"}
-    fig.savefig('img_res/Fig_5'+same2fig.get(sameness, "_X")+'_correlation_on_type.png', dpi = 600)
-    
-    
-    print("Correlation by tests")
-    t1, t2 = [], []
-    for i in range(6):
-        t = intellig.iloc[0:-1, i*2:i*2+2].dropna()
-        t1.extend(t.iloc[:, 0])
-        t2.extend(t.iloc[:, 1])
-        print(f"Test {i+1}", pearsonr(t.iloc[:,0], t.iloc[:,1])[0])
-    print("All Tests", pearsonr(t1, t2)[0])
-    print("\nCorrelation by language")
-    for i in range(intellig.shape[0]-1):
-        t = pd.DataFrame([[intellig.iloc[i, 2*j], intellig.iloc[i, 2*j+1]] 
-                          for j in range(int(intellig.shape[1]/2))])
-        t = t.dropna()
-        print(intellig.index[i], pearsonr(t.iloc[:, 0].dropna(),
-                                          t.iloc[:, 1].dropna())[0])
-"""
-
-
 
 def drawAnIntel(user_data, all_resn, intellig, sameness, test_no, test_len, axes=None):
     if sameness == 'Same':
@@ -909,14 +600,9 @@ def drawAnIntel(user_data, all_resn, intellig, sameness, test_no, test_len, axes
     if axes != None:
         sns.scatterplot(x='cnt'+str(test_no), y='intel'+str(test_no), data=intellig, marker=markers[test_no],
                         hue=intellig.index, ax = axes, alpha=0.7)
-#         sns.scatterplot(x=[0 for n in intellig.index], y='wo_par', data=all_resn[test_no-1], marker='o',
-#                         hue=intellig.index, ax = axes, alpha=0.7)
-        # Горизонтальные линии с маркерами.
-#         sns.lineplot(x=[0, 1], y=[mean, mean], alpha = 0.5, linewidth = 1, ax = axes, 
-#                      color=sns.palettes.color_palette("tab10")[test_no], )
-#         axes.lines[-1].set_linestyle("--")
+        # Horizontal lines.
         sns.scatterplot(x=[-0.05], y=[mean], marker=markers[test_no],
-                        facecolor='r', #sns.palettes.color_palette("tab10")[test_no], 
+                        facecolor='r', 
                         ax=axes, alpha=0.7)
     return mean
 
@@ -941,13 +627,10 @@ def showIntel(sameness, user_data, qu_data, text_frame, axes, fig, show_legend =
                         f'%{sameness} .Words, Test5', 'Avg.Results, Test5',
                         f'%{sameness} .Words, Test6', 'Avg.Results, Test6']
     sns.lineplot(x=[0, 1], y=[0, 1], color = '#888888', ax = axes, size=1, legend=None, style=True, dashes=[(4,4)])
-#     axes.lines[-1].set_linestyle("--")
     axes.set_ylabel('Average Test Intelligibility')
 
     langs2 = ['Язык пар. текста', 'Белорусский', 'Болгарский', 'Чешский', 
               'Польский', 'Сербский', 'Словацкий', 'Словенский', 'Украинский']
-#     for i, l in enumerate(langs2):
-#         axes.get_legend().get_texts()[i].set_text(l)
     same2title = {"Same": "Same Root", "Similar":"Close Words", 
                   "No analogues": "Non-cognates", "False Friends":"False Friends"}
     same2xlabel = {"Same": "Percentage of Words with Same Root in a Test", 
@@ -956,36 +639,21 @@ def showIntel(sameness, user_data, qu_data, text_frame, axes, fig, show_legend =
                    "False Friends":"Percentage of False Friends in a Test"}
     axes.set_title(same2title.get(sameness, "XXX"))
     axes.set_xlabel(same2xlabel.get(sameness, "XXX"))
-#     if show_legend:
     if show_legend == 1:
         handles, labels = axes.get_legend_handles_labels()
         handles, labels = handles[:8], labels[:8]
         labels.append('Control group')
         handles.append(copy.copy(handles[-1]))
         handles[-1].set_color('#FF0000')
-#         print(dir(handles[-1]))
         axes.legend(handles, labels)
     elif show_legend == 2:
-#         markers = ['o', 'x', 'd', '^', 's', '*']
         _ = axes.legend(handles=[Line2D([], [], marker=m, color='black') for m in markers[1:]], 
                         labels=range(1, 7), loc = 'lower right', ncol=2, title='Test number')
-#         _ = axes.legend(handles=[Line2D([], [], marker=m, color=c, linestyle=s) 
-#                                  for m,s,c in zip(['o', 'x', '+', 's'], 
-#                                                   ["solid", "dotted", "dashed", "dashdot"], 
-#                                                   sns.palettes.color_palette("tab10")[:4]
-#                                                  )
-#                                 ], 
-#                         labels=['Same root', 'Close Words', 'Non-cognate', 'False friends'],
-#                         loc = 'lower right', ncol=2, title='')
     else:
         axes.get_legend().remove()
         
     display(intellig)
-    
-#     same2fig = {"Same": "_1", "Similar":"_2", "No analogues": "_3", "False Friends":"_4"}
-#     fig.savefig('img_res/Fig_5'+same2fig.get(sameness, "_X")+'_correlation_on_type.png', dpi = 600)
-    
-    
+        
     print("Correlation by tests")
     t1, t2 = [], []
     for i in range(6):
